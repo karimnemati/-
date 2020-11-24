@@ -1,0 +1,192 @@
+2020-11-14T13:38:51.8502083-08:00  [INF] User profile is available. Using '"C:\Users\pc\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-11-14T13:38:53.2753067-08:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-14T13:38:53.2757284-08:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-14T13:38:53.2760788-08:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-14T13:38:53.2761285-08:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-14T13:38:53.2761856-08:00  [INF] Content root path: "g:\.Net Core\hampadco\hampad\hampad" (b5d60022)
+2020-11-14T13:39:00.9600144-08:00 0HM48SMPIB46N:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-11-14T13:39:01.0114833-08:00 0HM48SMPIB46N:00000001 [INF] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed" (48071232)
+2020-11-14T13:39:01.1008266-08:00 0HM48SMPIB46N:00000001 [INF] Executing endpoint '"hampad.Controllers.HomeController.Index (hampad)"' (500cc934)
+2020-11-14T13:39:01.2046930-08:00 0HM48SMPIB46N:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "hampad.Controllers.HomeController" ("hampad"). (122b2fdf)
+2020-11-14T13:39:02.2972059-08:00 0HM48SMPIB46N:00000001 [INF] Entity Framework Core "3.1.8" initialized '"ContextHampadco"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-11-14T13:39:03.4502992-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("128"ms) [Parameters=["@__ln_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[FatherIdCat], [t].[Language], [t].[NameCat]
+FROM [tbl_category] AS [t]
+WHERE [t].[Language] = @__ln_0" (0723d8ff)
+2020-11-14T13:39:03.6059558-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [t].[Id], [t].[ScriptChat]
+FROM [Tbl_Richats] AS [t]" (0723d8ff)
+2020-11-14T13:39:03.6124615-08:00 0HM48SMPIB46N:00000001 [WRN] fsdfsdfdsfsd (4097441d)
+2020-11-14T13:39:03.6460590-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__GetId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Tbl_Message] AS [t]
+WHERE (([t].[StateMess] = CAST(0 AS bit)) AND ([t].[SenderMess] = N'admin')) AND ([t].[ResiverMess] = @__GetId_0)" (0723d8ff)
+2020-11-14T13:39:03.6558621-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__GetId_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Tbl_Message] AS [t]
+WHERE ([t].[StateMess] = CAST(0 AS bit)) AND ([t].[SenderMess] = @__GetId_0)" (0723d8ff)
+2020-11-14T13:39:03.6671431-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__ln_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [t].[Id], [t].[ImageLogo], [t].[Language], [t].[TitleLogo]
+FROM [Tbl_Logo] AS [t]
+WHERE [t].[Language] = @__ln_0" (0723d8ff)
+2020-11-14T13:39:03.6844490-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Aparat], [t].[Facebook], [t].[Instagram], [t].[Language], [t].[Telegram], [t].[Twitter], [t].[Whatsapp], [t].[Youtube]
+FROM [Tbl_SocialNetwork] AS [t]" (0723d8ff)
+2020-11-14T13:39:03.7090874-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__ln_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[FirstAddress], [t].[Language], [t].[LocationAd], [t].[Officetel1Ad], [t].[Officetel2Ad], [t].[SecondAddress], [t].[Tel1Ad], [t].[Tel2Ad]
+FROM [Tbl_Adress] AS [t]
+WHERE [t].[Language] = @__ln_0" (0723d8ff)
+2020-11-14T13:39:03.8620576-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__ln_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(@__p_1) [t].[Id], [t].[FullTextBlo], [t].[IdCtegoryBlo], [t].[ImageMainBlo], [t].[KeywordsBlo], [t].[Language], [t].[SummaryBlo], [t].[TitleBLo]
+FROM [Tbl_Blog] AS [t]
+WHERE [t].[Language] = @__ln_0
+ORDER BY [t].[Id] DESC" (0723d8ff)
+2020-11-14T13:39:03.8913713-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__ln_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[CategoryIdSlid], [t].[CategoryProductIdSlid], [t].[ImageMainSlid], [t].[Language], [t].[TitleSlid], [t].[TypeSlid]
+FROM [Tbl_Slider] AS [t]
+WHERE [t].[Language] = @__ln_0
+ORDER BY [t].[Id] DESC" (0723d8ff)
+2020-11-14T13:39:03.9464065-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=["@__ln_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[CategoryIdSlid], [t].[CategoryProductIdSlid], [t].[ImageMainSlid], [t].[Language], [t].[TitleSlid], [t].[TypeSlid]
+FROM [Tbl_Baner] AS [t]
+WHERE [t].[Language] = @__ln_0
+ORDER BY [t].[Id] DESC" (0723d8ff)
+2020-11-14T13:39:03.9825284-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[FatherIdCat], [t].[Language], [t].[NameCat]
+FROM [tbl_category] AS [t]
+WHERE [t].[FatherIdCat] = -3" (0723d8ff)
+2020-11-14T13:39:04.0254902-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("28"ms) [Parameters=["@__item_Id_0='?' (DbType = Int32), @__ln_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [t].[Id], [t].[FullTextBlo], [t].[IdCtegoryBlo], [t].[ImageMainBlo], [t].[KeywordsBlo], [t].[Language], [t].[SummaryBlo], [t].[TitleBLo]
+FROM [Tbl_Blog] AS [t]
+WHERE ([t].[IdCtegoryBlo] = @__item_Id_0) AND ([t].[Language] = @__ln_1)" (0723d8ff)
+2020-11-14T13:39:04.0403732-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=["@__item_Id_0='?' (DbType = Int32), @__ln_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [t].[Id], [t].[FullTextBlo], [t].[IdCtegoryBlo], [t].[ImageMainBlo], [t].[KeywordsBlo], [t].[Language], [t].[SummaryBlo], [t].[TitleBLo]
+FROM [Tbl_Blog] AS [t]
+WHERE ([t].[IdCtegoryBlo] = @__item_Id_0) AND ([t].[Language] = @__ln_1)" (0723d8ff)
+2020-11-14T13:39:04.0750709-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("14"ms) [Parameters=["@__ln_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[BrandPro], [t].[CategoryIdPro], [t].[ColorPro], [t].[DescreptionPro], [t].[ImageMainPro], [t].[Language], [t].[MaterialPro], [t].[OfferPro], [t].[PricePro], [t].[SizePro], [t].[TitleProductPro], [t].[TotalPro], [t].[TypeCarPro]
+FROM [Tbl_Product] AS [t]
+WHERE [t].[Language] = @__ln_0" (0723d8ff)
+2020-11-14T13:39:04.1071194-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[FullTextBlo], [t].[IdCtegoryBlo], [t].[ImageMainBlo], [t].[KeywordsBlo], [t].[Language], [t].[SummaryBlo], [t].[TitleBLo]
+FROM [Tbl_Blog] AS [t]" (0723d8ff)
+2020-11-14T13:39:04.1274475-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__ln_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(@__p_1) [t].[Id], [t].[CategoryIdTeaser], [t].[Language], [t].[LinkVideoTeaser], [t].[TitleTeaser], [t].[VideoPathTeaser]
+FROM [Tbl_Teaser] AS [t]
+WHERE [t].[Language] = @__ln_0
+ORDER BY [t].[Id] DESC" (0723d8ff)
+2020-11-14T13:39:04.1595447-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__ln_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(@__p_1) [t].[Id], [t].[BrandPro], [t].[CategoryIdPro], [t].[ColorPro], [t].[DescreptionPro], [t].[ImageMainPro], [t].[Language], [t].[MaterialPro], [t].[OfferPro], [t].[PricePro], [t].[SizePro], [t].[TitleProductPro], [t].[TotalPro], [t].[TypeCarPro]
+FROM [Tbl_Product] AS [t]
+WHERE [t].[Language] = @__ln_0
+ORDER BY [t].[Id] DESC" (0723d8ff)
+2020-11-14T13:39:04.1985114-08:00 0HM48SMPIB46N:00000001 [INF] Executed DbCommand ("18"ms) [Parameters=["@__ln_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[AboutEx], [t].[ImageEx], [t].[Language], [t].[LocationEx], [t].[NameEx], [t].[OfficeTelEx], [t].[TelEx], [t].[address]
+FROM [Tbl_Experts] AS [t]
+WHERE [t].[Language] = @__ln_0
+ORDER BY [t].[Id] DESC" (0723d8ff)
+2020-11-14T13:39:04.2894991-08:00 0HM48SMPIB46N:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-11-14T13:39:05.1403066-08:00 0HM48SMPIB46N:00000001 [INF] Executed ViewResult - view "Index" executed in 886.7018ms. (f66409e9)
+2020-11-14T13:39:05.1473431-08:00 0HM48SMPIB46N:00000001 [INF] Executed action "hampad.Controllers.HomeController.Index (hampad)" in 3941.9762ms (afa2e885)
+2020-11-14T13:39:05.1483919-08:00 0HM48SMPIB46N:00000001 [INF] Executed endpoint '"hampad.Controllers.HomeController.Index (hampad)"' (99874f2b)
+2020-11-14T13:39:05.1726431-08:00 0HM48SMPIB46N:00000001 [INF] Request finished in 4220.5685ms 200 text/html; charset=utf-8 (791a596a)
+2020-11-14T13:39:05.3088177-08:00 0HM48SMPIB46N:00000005 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/vendors/css/charts/apexcharts.css   (ca22a1cb)
+2020-11-14T13:39:05.3088250-08:00 0HM48SMPIB46N:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/images/fonts.googleapis.css   (ca22a1cb)
+2020-11-14T13:39:05.3143891-08:00 0HM48SMPIB46N:00000007 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/vendors/css/extensions/tether-theme-arrows.css   (ca22a1cb)
+2020-11-14T13:39:05.3274617-08:00 0HM48SMPIB46N:00000005 [INF] Sending file. Request path: '"/app-assets/vendors/css/charts/apexcharts.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\vendors\css\charts\apexcharts.css"' (27b0a520)
+2020-11-14T13:39:05.3274306-08:00 0HM48SMPIB46N:00000003 [INF] Sending file. Request path: '"/app-assets/images/fonts.googleapis.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\images\fonts.googleapis.css"' (27b0a520)
+2020-11-14T13:39:05.3276226-08:00 0HM48SMPIB46N:00000007 [INF] Sending file. Request path: '"/app-assets/vendors/css/extensions/tether-theme-arrows.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\vendors\css\extensions\tether-theme-arrows.css"' (27b0a520)
+2020-11-14T13:39:05.3278293-08:00 0HM48SMPIB46N:00000007 [INF] Request finished in 13.4653ms 200 text/css (791a596a)
+2020-11-14T13:39:05.3278459-08:00 0HM48SMPIB46N:00000003 [INF] Request finished in 19.1189ms 200 text/css (791a596a)
+2020-11-14T13:39:05.3283760-08:00 0HM48SMPIB46N:00000005 [INF] Request finished in 19.5592ms 200 text/css (791a596a)
+2020-11-14T13:39:05.4097972-08:00 0HM48SMPIB46N:00000009 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/vendors/css/extensions/tether.min.css   (ca22a1cb)
+2020-11-14T13:39:05.4109935-08:00 0HM48SMPIB46N:00000009 [INF] Sending file. Request path: '"/app-assets/vendors/css/extensions/tether.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\vendors\css\extensions\tether.min.css"' (27b0a520)
+2020-11-14T13:39:05.4112286-08:00 0HM48SMPIB46N:00000009 [INF] Request finished in 1.4511ms 200 text/css (791a596a)
+2020-11-14T13:39:05.4182463-08:00 0HM48SMPIB46N:0000000B [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/vendors/css/extensions/shepherd-theme-default.css   (ca22a1cb)
+2020-11-14T13:39:05.4196630-08:00 0HM48SMPIB46N:0000000B [INF] Sending file. Request path: '"/app-assets/vendors/css/extensions/shepherd-theme-default.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\vendors\css\extensions\shepherd-theme-default.css"' (27b0a520)
+2020-11-14T13:39:05.4198987-08:00 0HM48SMPIB46N:0000000B [INF] Request finished in 1.7096ms 200 text/css (791a596a)
+2020-11-14T13:39:05.4202798-08:00 0HM48SMPIB46N:0000000D [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/css-rtl/bootstrap.min.css   (ca22a1cb)
+2020-11-14T13:39:05.4294594-08:00 0HM48SMPIB46N:0000000F [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/css-rtl/bootstrap-extended.min.css   (ca22a1cb)
+2020-11-14T13:39:05.4370395-08:00 0HM48SMPIB46N:0000000D [INF] Sending file. Request path: '"/app-assets/css-rtl/bootstrap.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\css-rtl\bootstrap.min.css"' (27b0a520)
+2020-11-14T13:39:05.4370741-08:00 0HM48SMPIB46N:0000000F [INF] Sending file. Request path: '"/app-assets/css-rtl/bootstrap-extended.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\css-rtl\bootstrap-extended.min.css"' (27b0a520)
+2020-11-14T13:39:05.4374782-08:00 0HM48SMPIB46N:0000000D [INF] Request finished in 17.2096ms 200 text/css (791a596a)
+2020-11-14T13:39:05.4376925-08:00 0HM48SMPIB46N:0000000F [INF] Request finished in 8.2775ms 200 text/css (791a596a)
+2020-11-14T13:39:05.4447389-08:00 0HM48SMPIB46N:00000011 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/css-rtl/colors.min.css   (ca22a1cb)
+2020-11-14T13:39:05.4502581-08:00 0HM48SMPIB46N:00000011 [INF] Sending file. Request path: '"/app-assets/css-rtl/colors.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\css-rtl\colors.min.css"' (27b0a520)
+2020-11-14T13:39:05.4505966-08:00 0HM48SMPIB46N:00000011 [INF] Request finished in 5.8456ms 200 text/css (791a596a)
+2020-11-14T13:39:05.4556186-08:00 0HM48SMPIB46N:00000013 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/css-rtl/components.min.css   (ca22a1cb)
+2020-11-14T13:39:05.4576896-08:00 0HM48SMPIB46N:00000013 [INF] Sending file. Request path: '"/app-assets/css-rtl/components.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\css-rtl\components.min.css"' (27b0a520)
+2020-11-14T13:39:05.4580209-08:00 0HM48SMPIB46N:00000013 [INF] Request finished in 2.4059ms 200 text/css (791a596a)
+2020-11-14T13:39:05.4748558-08:00 0HM48SMPIB46N:00000015 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/css-rtl/themes/dark-layout.min.css   (ca22a1cb)
+2020-11-14T13:39:05.4769206-08:00 0HM48SMPIB46N:00000015 [INF] Sending file. Request path: '"/app-assets/css-rtl/themes/dark-layout.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\css-rtl\themes\dark-layout.min.css"' (27b0a520)
+2020-11-14T13:39:05.4771937-08:00 0HM48SMPIB46N:00000015 [INF] Request finished in 2.2947ms 200 text/css (791a596a)
+2020-11-14T13:39:05.4863598-08:00 0HM48SMPIB46N:00000017 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/css-rtl/themes/semi-dark-layout.min.css   (ca22a1cb)
+2020-11-14T13:39:05.4872578-08:00 0HM48SMPIB46N:00000017 [INF] Sending file. Request path: '"/app-assets/css-rtl/themes/semi-dark-layout.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\css-rtl\themes\semi-dark-layout.min.css"' (27b0a520)
+2020-11-14T13:39:05.4874240-08:00 0HM48SMPIB46N:00000017 [INF] Request finished in 1.1184ms 200 text/css (791a596a)
+2020-11-14T13:39:05.5007357-08:00 0HM48SMPIB46N:00000019 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/css-rtl/pages/dashboard-analytics.min.css   (ca22a1cb)
+2020-11-14T13:39:05.5016671-08:00 0HM48SMPIB46N:00000019 [INF] Sending file. Request path: '"/app-assets/css-rtl/pages/dashboard-analytics.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\css-rtl\pages\dashboard-analytics.min.css"' (27b0a520)
+2020-11-14T13:39:05.5018416-08:00 0HM48SMPIB46N:00000019 [INF] Request finished in 1.1656ms 200 text/css (791a596a)
+2020-11-14T13:39:05.5094458-08:00 0HM48SMPIB46N:0000001B [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/css-rtl/pages/card-analytics.min.css   (ca22a1cb)
+2020-11-14T13:39:05.5103058-08:00 0HM48SMPIB46N:0000001B [INF] Sending file. Request path: '"/app-assets/css-rtl/pages/card-analytics.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\css-rtl\pages\card-analytics.min.css"' (27b0a520)
+2020-11-14T13:39:05.5104635-08:00 0HM48SMPIB46N:0000001B [INF] Request finished in 1.0588ms 200 text/css (791a596a)
+2020-11-14T13:39:05.5207866-08:00 0HM48SMPIB46N:0000001D [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/css-rtl/plugins/tour/tour.min.css   (ca22a1cb)
+2020-11-14T13:39:05.5221066-08:00 0HM48SMPIB46N:0000001F [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/css-rtl/custom-rtl.min.css   (ca22a1cb)
+2020-11-14T13:39:05.5222570-08:00 0HM48SMPIB46N:0000001D [INF] Sending file. Request path: '"/app-assets/css-rtl/plugins/tour/tour.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\css-rtl\plugins\tour\tour.min.css"' (27b0a520)
+2020-11-14T13:39:05.5224646-08:00 0HM48SMPIB46N:0000001D [INF] Request finished in 1.9066ms 200 text/css (791a596a)
+2020-11-14T13:39:05.5224629-08:00 0HM48SMPIB46N:00000021 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/style-rtl.css   (ca22a1cb)
+2020-11-14T13:39:05.5231499-08:00 0HM48SMPIB46N:0000001F [INF] Sending file. Request path: '"/app-assets/css-rtl/custom-rtl.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\css-rtl\custom-rtl.min.css"' (27b0a520)
+2020-11-14T13:39:05.5237102-08:00 0HM48SMPIB46N:0000001F [INF] Request finished in 1.3079ms 200 text/css (791a596a)
+2020-11-14T13:39:05.5243733-08:00 0HM48SMPIB46N:00000021 [INF] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed" (48071232)
+2020-11-14T13:39:05.5288450-08:00 0HM48SMPIB46N:00000021 [INF] Request finished in 6.2535ms 404  (791a596a)
+2020-11-14T13:39:05.5379006-08:00 0HM48SMPIB46N:00000023 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/css-rtl/pages/users.min.css   (ca22a1cb)
+2020-11-14T13:39:05.5394002-08:00 0HM48SMPIB46N:00000023 [INF] Sending file. Request path: '"/app-assets/css-rtl/pages/users.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\css-rtl\pages\users.min.css"' (27b0a520)
+2020-11-14T13:39:05.5398775-08:00 0HM48SMPIB46N:00000023 [INF] Request finished in 2.1255ms 200 text/css (791a596a)
+2020-11-14T13:39:05.5404351-08:00 0HM48SMPIB46N:00000025 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/css-rtl/plugins/extensions/noui-slider.min.css   (ca22a1cb)
+2020-11-14T13:39:05.5417224-08:00 0HM48SMPIB46N:00000025 [INF] Sending file. Request path: '"/app-assets/css-rtl/plugins/extensions/noui-slider.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\css-rtl\plugins\extensions\noui-slider.min.css"' (27b0a520)
+2020-11-14T13:39:05.5424233-08:00 0HM48SMPIB46N:00000025 [INF] Request finished in 1.6421ms 200 text/css (791a596a)
+2020-11-14T13:39:05.5499696-08:00 0HM48SMPIB46N:00000027 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/css-rtl/pages/app-ecommerce-shop.min.css   (ca22a1cb)
+2020-11-14T13:39:05.5514582-08:00 0HM48SMPIB46N:00000027 [INF] Sending file. Request path: '"/app-assets/css-rtl/pages/app-ecommerce-shop.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\css-rtl\pages\app-ecommerce-shop.min.css"' (27b0a520)
+2020-11-14T13:39:05.5516445-08:00 0HM48SMPIB46N:00000027 [INF] Request finished in 1.7284ms 200 text/css (791a596a)
+2020-11-14T13:39:05.5560067-08:00 0HM48SMPIB46N:00000029 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/vendors/css/extensions/nouislider.min.css   (ca22a1cb)
+2020-11-14T13:39:05.5570066-08:00 0HM48SMPIB46N:00000029 [INF] Sending file. Request path: '"/app-assets/vendors/css/extensions/nouislider.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\vendors\css\extensions\nouislider.min.css"' (27b0a520)
+2020-11-14T13:39:05.5572427-08:00 0HM48SMPIB46N:00000029 [INF] Request finished in 1.3011ms 200 text/css (791a596a)
+2020-11-14T13:39:05.5647778-08:00 0HM48SMPIB46N:0000002B [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/vendors/css/ui/prism.min.css   (ca22a1cb)
+2020-11-14T13:39:05.5658266-08:00 0HM48SMPIB46N:0000002B [INF] Sending file. Request path: '"/app-assets/vendors/css/ui/prism.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\vendors\css\ui\prism.min.css"' (27b0a520)
+2020-11-14T13:39:05.5660524-08:00 0HM48SMPIB46N:0000002B [INF] Request finished in 1.3103ms 200 text/css (791a596a)
+2020-11-14T13:39:05.5728600-08:00 0HM48SMPIB46N:0000002D [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/vendors/css/forms/select/select2.min.css   (ca22a1cb)
+2020-11-14T13:39:05.5739803-08:00 0HM48SMPIB46N:0000002D [INF] Sending file. Request path: '"/app-assets/vendors/css/forms/select/select2.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\vendors\css\forms\select\select2.min.css"' (27b0a520)
+2020-11-14T13:39:05.5742700-08:00 0HM48SMPIB46N:0000002D [INF] Request finished in 1.4443ms 200 text/css (791a596a)
+2020-11-14T13:39:05.5819881-08:00 0HM48SMPIB46N:0000002F [INF] Request starting HTTP/2 GET https://localhost:5001/~/app-assets/css-rtl/plugins/extensions/swiper.min.css   (ca22a1cb)
+2020-11-14T13:39:05.5841685-08:00 0HM48SMPIB46N:00000031 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/vendors/css/extensions/swiper.min.css   (ca22a1cb)
+2020-11-14T13:39:05.5857304-08:00 0HM48SMPIB46N:00000031 [INF] Sending file. Request path: '"/app-assets/vendors/css/extensions/swiper.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\vendors\css\extensions\swiper.min.css"' (27b0a520)
+2020-11-14T13:39:05.5860631-08:00 0HM48SMPIB46N:00000031 [INF] Request finished in 1.8514ms 200 text/css (791a596a)
+2020-11-14T13:39:05.5863510-08:00 0HM48SMPIB46N:00000033 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/css-rtl/plugins/extensions/swiper.min.css   (ca22a1cb)
+2020-11-14T13:39:05.5876906-08:00 0HM48SMPIB46N:00000033 [INF] Sending file. Request path: '"/app-assets/css-rtl/plugins/extensions/swiper.min.css"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\css-rtl\plugins\extensions\swiper.min.css"' (27b0a520)
+2020-11-14T13:39:05.5881364-08:00 0HM48SMPIB46N:00000033 [INF] Request finished in 1.7493ms 200 text/css (791a596a)
+2020-11-14T13:39:05.5899103-08:00 0HM48SMPIB46N:0000002F [INF] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed" (48071232)
+2020-11-14T13:39:05.5979100-08:00 0HM48SMPIB46N:0000002F [INF] Request finished in 15.9364ms 404  (791a596a)
+2020-11-14T13:39:05.6001235-08:00 0HM48SMPIB46N:00000035 [INF] Request starting HTTP/2 GET https://localhost:5001/~/app-assets/vendors/js/ui/jquery.sticky.js   (ca22a1cb)
+2020-11-14T13:39:05.6027270-08:00 0HM48SMPIB46N:00000035 [INF] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed" (48071232)
+2020-11-14T13:39:05.6030559-08:00 0HM48SMPIB46N:00000035 [INF] Request finished in 2.9574ms 404  (791a596a)
+2020-11-14T13:39:05.6066857-08:00 0HM48SMPIB46N:00000037 [INF] Request starting HTTP/2 GET https://localhost:5001/~/app-assets/vendors/js/extensions/swiper.min.js   (ca22a1cb)
+2020-11-14T13:39:05.6096721-08:00 0HM48SMPIB46N:00000037 [INF] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed" (48071232)
+2020-11-14T13:39:05.6100175-08:00 0HM48SMPIB46N:00000037 [INF] Request finished in 3.357ms 404  (791a596a)
+2020-11-14T13:39:05.6101465-08:00 0HM48SMPIB46N:00000039 [INF] Request starting HTTP/2 GET https://localhost:5001/~/app-assets/js/scripts/extensions/swiper.min.js   (ca22a1cb)
+2020-11-14T13:39:05.6132419-08:00 0HM48SMPIB46N:00000039 [INF] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed" (48071232)
+2020-11-14T13:39:05.6135704-08:00 0HM48SMPIB46N:00000039 [INF] Request finished in 3.4691ms 404  (791a596a)
+2020-11-14T13:39:06.1057465-08:00 0HM48SMPIB46N:0000003B [INF] Request starting HTTP/2 GET https://localhost:5001/~/app-assets/vendors/js/ui/jquery.sticky.js   (ca22a1cb)
+2020-11-14T13:39:06.1123691-08:00 0HM48SMPIB46N:0000003B [INF] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed" (48071232)
+2020-11-14T13:39:06.1157451-08:00 0HM48SMPIB46N:0000003B [INF] Request finished in 10.8013ms 404  (791a596a)
+2020-11-14T13:39:06.1417289-08:00 0HM48SMPIB46N:0000003D [INF] Request starting HTTP/2 GET https://localhost:5001/~/app-assets/vendors/js/extensions/swiper.min.js   (ca22a1cb)
+2020-11-14T13:39:06.1463862-08:00 0HM48SMPIB46N:0000003D [INF] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed" (48071232)
+2020-11-14T13:39:06.1487363-08:00 0HM48SMPIB46N:0000003D [INF] Request finished in 7.092ms 404  (791a596a)
+2020-11-14T13:39:06.1602322-08:00 0HM48SMPIB46N:0000003F [INF] Request starting HTTP/2 GET https://localhost:5001/~/app-assets/js/scripts/extensions/swiper.min.js   (ca22a1cb)
+2020-11-14T13:39:06.1672978-08:00 0HM48SMPIB46N:0000003F [INF] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed" (48071232)
+2020-11-14T13:39:06.1689788-08:00 0HM48SMPIB46N:0000003F [INF] Request finished in 8.8986ms 404  (791a596a)
+2020-11-14T13:39:06.7207565-08:00 0HM48SMPIB46N:00000041 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/data/locales/en.json   (ca22a1cb)
+2020-11-14T13:39:06.7240759-08:00 0HM48SMPIB46N:00000041 [INF] Sending file. Request path: '"/app-assets/data/locales/en.json"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\data\locales\en.json"' (27b0a520)
+2020-11-14T13:39:06.7246627-08:00 0HM48SMPIB46N:00000041 [INF] Request finished in 4.0491ms 200 application/json (791a596a)
+2020-11-14T13:39:07.0785963-08:00 0HM48SMPIB46N:00000043 [INF] Request starting HTTP/2 GET https://localhost:5001/app-assets/images/icons/favicon.ico   (ca22a1cb)
+2020-11-14T13:39:07.0818317-08:00 0HM48SMPIB46N:00000043 [INF] Sending file. Request path: '"/app-assets/images/icons/favicon.ico"'. Physical path: '"g:\.Net Core\hampadco\hampad\hampad\wwwroot\app-assets\images\icons\favicon.ico"' (27b0a520)
+2020-11-14T13:39:07.0828857-08:00 0HM48SMPIB46N:00000043 [INF] Request finished in 4.2244ms 200 image/x-icon (791a596a)
+2020-11-14T13:40:39.0934308-08:00  [INF] Application is shutting down... (90f52c38)

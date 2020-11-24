@@ -1,0 +1,255 @@
+ <div class="horizontal-menu-wrapper">
+        <div class="header-navbar navbar-expand-sm navbar navbar-horizontal floating-nav navbar-light navbar-without-dd-arrow navbar-shadow menu-border"
+            role="navigation" data-menu="menu-wrapper">
+            <div class="navbar-header">
+                <ul class="nav navbar-nav flex-row ">
+                    <li class="nav-item mr-auto">
+                        <a href="/" style="margin-top:0px;padding: 25px;">
+
+                              @if(menu.logo != null)
+            {
+            <img src="/fileupload/@menu.logo" alt="محل لوگوی شما" >
+            }
+            else
+            {
+            <img src="/app-assets/images/icons/defaultlogo.png" alt="محل لوگوی شما" >
+            }
+                        </a>
+                    </li>
+                    <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i
+                                class="feather icon-x d-block d-xl-none font-medium-4 primary toggle-icon"></i><i
+                                class="toggle-icon feather icon-disc font-medium-4 d-none d-xl-block collapse-toggle-icon primary"
+                                data-ticon="icon-disc"></i></a></li>
+                </ul>
+            </div>
+            <!-- Horizontal menu content-->
+            <div class="navbar-container main-menu-content justify-content-end" data-menu="menu-container">
+                <!-- include ~/includes/mixins-->
+                <div class="row justify-content-center">
+                    <ul class="nav navbar-nav justify-content-center " id="main-menu-navigation"
+                        data-menu="menu-navigation">
+                        <li class="dropdown nav-item ">
+                            <a class=" nav-link" href="/home/index"><i class="feather icon-home"></i><span
+                                    data-i18n="Dashboard">خانه</span></a>
+
+                        </li>
+                   
+
+
+                        <li class="dropdown nav-item" data-menu="dropdown">
+                            <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"><i
+                                    class="fa fa-graduation-cap"></i><span data-i18n="Apps">
+                                       پایان نامه و پرپوزال
+                                    </span></a>
+                            <ul class="dropdown-menu">
+
+                                  <li data-menu=""><a class="dropdown-item" href="/agancy/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                       ارشــد
+                                        </a>
+                                </li>
+
+                                <li data-menu=""><a class="dropdown-item" href="/expert/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                       دکتــرا
+                                        </a>
+                                </li>
+
+                               
+
+
+
+
+
+
+                            </ul>
+                        </li>
+                        <li class="dropdown nav-item" data-menu="dropdown">
+                            <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"><i
+                                    class="fa fa-graduation-cap"></i><span data-i18n="Apps">
+                                       پروژه و کارآموزی
+                                    </span></a>
+                            <ul class="dropdown-menu">
+                                 <li data-menu=""><a class="dropdown-item" href="/agancy/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                      کاردانـی
+                                        </a>
+                                </li>
+
+
+
+
+                                <li data-menu=""><a class="dropdown-item" href="/expert/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                       کارشناسـی
+                                        </a>
+                                </li>
+
+                               
+
+
+
+
+
+                            </ul>
+                        </li>
+                        <li class="dropdown nav-item" data-menu="dropdown">
+                            <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"><i
+                                    class="fa fa-graduation-cap"></i><span data-i18n="Apps">
+                                      سوالات پیام نور
+                                    </span></a>
+                            <ul class="dropdown-menu">
+                                <li data-menu=""><a class="dropdown-item" href="/expert/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                       کاردانـی
+                                        </a>
+                                </li>
+
+                                <li data-menu=""><a class="dropdown-item" href="/agancy/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                       کارشناســی
+                                        </a>
+                                </li>
+                                <li data-menu=""><a class="dropdown-item" href="/agancy/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                       ارشــد
+                                        </a>
+                                </li>
+
+
+
+                                <li data-menu=""><a class="dropdown-item" href="/expert/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                       دکتــرا
+                                        </a>
+                                </li>
+
+                                
+
+
+
+
+
+
+                            </ul>
+                        </li>
+                         <li class="dropdown nav-item" data-menu="dropdown">
+                            <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"><i
+                                    class="fa fa-graduation-cap"></i><span data-i18n="Apps">
+                                       پرسشنامه و ترجمه
+                                    </span></a>
+                            <ul class="dropdown-menu">
+                                <li data-menu=""><a class="dropdown-item" href="/agancy/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                      کاردانـی
+                                        </a>
+                                </li>
+
+
+
+                                <li data-menu=""><a class="dropdown-item" href="/expert/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                       کارشناسـی
+                                        </a>
+                                </li>
+                                <li data-menu=""><a class="dropdown-item" href="/agancy/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                       ارشــد
+                                        </a>
+                                </li>
+
+                                
+                                
+                                <li data-menu=""><a class="dropdown-item" href="/expert/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                       دکتــرا
+                                        </a>
+                                </li>
+
+                                
+
+
+
+
+
+
+                            </ul>
+                        </li>
+                         <li class="dropdown nav-item" data-menu="dropdown">
+                            <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"><i
+                                    class="fa fa-graduation-cap"></i><span data-i18n="Apps">
+                                       استخدامی
+                                    </span></a>
+                            <ul class="dropdown-menu">
+
+
+
+                                <li data-menu=""><a class="dropdown-item" href="/expert/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                       دولتی
+                                        </a>
+                                </li>
+
+                                <li data-menu=""><a class="dropdown-item" href="/agancy/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                      خصوصی
+                                        </a>
+                                </li>
+
+
+
+
+
+
+                            </ul>
+                        </li>
+                         <li class="dropdown nav-item" data-menu="dropdown">
+                            <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"><i
+                                    class="fa fa-graduation-cap"></i><span data-i18n="Apps">
+                                      سوالات مدارس
+                                    </span></a>
+                            <ul class="dropdown-menu">
+
+
+
+                                <li data-menu=""><a class="dropdown-item" href="/expert/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                       ابتدایی (1-6)  
+                                        </a>
+                                </li>
+
+                                <li data-menu=""><a class="dropdown-item" href="/agancy/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="fa fa-check-square-o"></i>
+                                   متوسطه   (7-12)   
+                                        </a>
+                                </li>
+                                 
+
+
+
+
+
+
+                            </ul>
+                        </li>
+
+                     
+                        
+                        @foreach (var item in menu.social)
+                        {
+                        <a target="_blank" href="@item.Instagram" class="fa fa-instagram fa-lg"
+                            style="color:#786DF1;padding-left:25px;padding-right:15px;padding-top:15px"></a>
+                        <a target="_blank" href="@item.Telegram" class="fa fa-telegram fa-lg"
+                            style="color:#786DF1;padding-left:15px;padding-right:15px;padding-top:15px"></a>
+                        <a target="_blank" href="@item.Whatsapp" class="fa fa-whatsapp fa-lg"
+                            style="color:#786DF1;padding-left:15px;padding-right:15px;padding-top:15px"></a>
+                        
+                        <a target="_blank" href="@item.Aparat" class="fa fa-play fa-lg"
+                            style="color:#786DF1;padding-left:15px;padding-right:15px;padding-top:15px"></a>
+
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>

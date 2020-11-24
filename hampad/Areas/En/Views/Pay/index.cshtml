@@ -1,0 +1,16 @@
+<div class="   mt-10 text-center">
+
+    <div>
+        <a href="/pay/request" class="btn btn-primary">Payment operations</a>
+        @if (ViewBag.msg=="success")
+        {
+            <p class="alert alert-success">Payment was successful</p>
+        }
+         @if (ViewBag.msg=="error")
+        {
+            <p class="alert alert-danger">Payment operation failed</p>
+        }
+    
+    </div>
+
+</div>
