@@ -2694,3 +2694,6 @@ c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\staticwebassets\
 c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\hampad.dll
 c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\hampad.pdb
 c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\hampad.genruntimeconfig.cache
+c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\Razor\Areas\Ar\Views\Shared\_Partial_Mainmenu_Ar.cshtml.g.cs
+c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\Razor\Areas\En\Views\Shared\_Partial_Mainmenu_En.cshtml.g.cs
+c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\Razor\Areas\Tu\Views\Shared\_Partial_Mainmenu_Tu.cshtml.g.cs

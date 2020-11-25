@@ -15047,6 +15047,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Shared\\_Partial_Mainmenu_Tu.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Shared\\_Partial_Mainmenu_Tu.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\order\\index.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\order\\index.cshtml",
       "FileKind": "mvc"
@@ -15074,6 +15079,11 @@
     {
       "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\agency\\list.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\agency\\list.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Shared\\_Partial_Mainmenu_Ar.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Shared\\_Partial_Mainmenu_Ar.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15294,6 +15304,11 @@
     {
       "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Home\\orgincheck.cshtml",
       "TargetPath": "Views\\Home\\orgincheck.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Shared\\_Partial_Mainmenu_En.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Shared\\_Partial_Mainmenu_En.cshtml",
       "FileKind": "mvc"
     }
   ],

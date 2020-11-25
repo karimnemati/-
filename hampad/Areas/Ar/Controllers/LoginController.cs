@@ -132,7 +132,7 @@ namespace hampad.Areas.Ar.Controllers
                     };
 
                     HttpContext.SignInAsync(principal, properties);
-                    return RedirectToAction("index","profile");
+                    return RedirectToAction("index","profile", new { area = "area" });
                 }
                 else
                 {

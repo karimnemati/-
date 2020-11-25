@@ -16,8 +16,8 @@ using Microsoft.AspNetCore.Hosting;
 namespace hampad.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
-    [RolAuthorize]
+    // [Authorize]
+    // [RolAuthorize]
     public class BaseController : Controller
     {
         public readonly ContextHampadco db;
