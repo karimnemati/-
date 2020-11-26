@@ -6,11 +6,11 @@
                     <li class="nav-item mr-auto">
                          @if(menu.logo != null)
             {
-            <img style="width: 200px; height: 64px;" src="/fileupload/@menu.logo" alt="Logonuzu koyun" >
+            <img style="width: 200px; height: 64px;" src="/fileupload/@menu.logo" alt="ضع شعارك" >
             }
             else
             {
-            <img src="/app-assets/images/icons/defaultlogo.png" alt="Logonuzu koyun" >
+            <img src="/app-assets/images/icons/defaultlogo.png" alt="ضع شعارك" >
             }
 
                     </li>
@@ -27,13 +27,13 @@
                     <ul class="nav navbar-nav justify-content-center " id="main-menu-navigation"
                         data-menu="menu-navigation">
                         <li class="dropdown nav-item ">
-                            <a class=" nav-link" href="/Tu/home/index"><i class="feather icon-home"></i><span
-                                    data-i18n="Dashboard">Ana Sayfa</span></a>
+                            <a class=" nav-link" href="/Ar/home/index"><i class="feather icon-home"></i><span
+                                    data-i18n="Dashboard">الصفحة الرئيسية</span></a>
 
                         </li>
                         <li class="dropdown nav-item" data-menu="dropdown">
                             <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"><i
-                                    class="fa fa-shopping-cart"></i><span data-i18n="Apps"> Ürün</span></a>
+                                    class="fa fa-shopping-cart"></i><span data-i18n="Apps"> منتجات</span></a>
                             <ul class="dropdown-menu">
 
                                 @foreach (var item in menu.cat)
@@ -49,7 +49,7 @@
                                         {
                                         if (item1.FatherIdCat == item.Id)
                                         {
-                                        <li data-menu=""><a class="dropdown-item" href="/Tu/product/index/@item1.Id"
+                                        <li data-menu=""><a class="dropdown-item" href="/Ar/product/index/@item1.Id"
                                                 data-toggle="dropdown" data-i18n="List"><i
                                                     class="feather icon-circle"></i>@item1.NameCat</a>
                                         </li>
@@ -71,7 +71,7 @@
                         </li>
                         <li class="dropdown nav-item" data-menu="dropdown">
                             <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"><i
-                                    class="fa fa-newspaper-o"></i><span data-i18n="Apps">Haberler ve blog</span></a>
+                                    class="fa fa-newspaper-o"></i><span data-i18n="Apps">الأخبار والمدونة</span></a>
                             <ul class="dropdown-menu">
 
                                 @foreach (var item in menu.cat)
@@ -87,7 +87,7 @@
                                         {
                                         if (item1.FatherIdCat == item.Id)
                                         {
-                                        <li data-menu=""><a class="dropdown-item" href="/Tu/blog/index/@item1.Id"
+                                        <li data-menu=""><a class="dropdown-item" href="/Ar/blog/index/@item1.Id"
                                                 data-toggle="dropdown" data-i18n="List"><i
                                                     class="feather icon-circle"></i>@item1.NameCat</a>
                                         </li>
@@ -119,17 +119,17 @@
 
                         <li class="dropdown nav-item" data-menu="dropdown">
                             <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"><i
-                                    class="fa fa-user-circle"></i><span data-i18n="Apps">Ajanslar ve uzmanlar</span></a>
+                                    class="fa fa-user-circle"></i><span data-i18n="Apps">وكالات وخبراء</span></a>
                             <ul class="dropdown-menu">
 
 
 
-                                <li data-menu=""><a class="dropdown-item" href="/Tu/expert/index"
-                                        data-toggle="dropdown" data-i18n="List"><i class="feather icon-circle"></i>Uzmanların listesi</a>
+                                <li data-menu=""><a class="dropdown-item" href="/Ar/expert/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="feather icon-circle"></i>قائمة الخبراء</a>
                                 </li>
 
-                                <li data-menu=""><a class="dropdown-item" href="/Tu/agancy/index"
-                                        data-toggle="dropdown" data-i18n="List"><i class="feather icon-circle"></i>Ajansların listesi</a>
+                                <li data-menu=""><a class="dropdown-item" href="/Ar/agancy/index"
+                                        data-toggle="dropdown" data-i18n="List"><i class="feather icon-circle"></i>قائمة الوكالات</a>
                                 </li>
 
 
@@ -142,17 +142,17 @@
 
 
                         <li class=" nav-item">
-                            <a class=" nav-link" href="/Tu/gallery/index"><i class="fa fa-picture-o"></i><span>galeri </span></a>
+                            <a class=" nav-link" href="/Ar/gallery/index"><i class="fa fa-picture-o"></i><span>صالة عرض </span></a>
 
                         </li>
                         <li class=" nav-item">
-                            <a class=" nav-link" href="/Tu/teaser/index"><i class="fa fa-play-circle"></i><span
-                                    data-i18n="Apps">Videolar</span></a>
+                            <a class=" nav-link" href="/Ar/teaser/index"><i class="fa fa-play-circle"></i><span
+                                    data-i18n="Apps">أفلام</span></a>
 
                         </li>
                         <li class=" nav-item">
-                            <a class=" nav-link" href="/Tu/contact/index"><i class="fa fa-phone-square"></i><span
-                                    data-i18n="Apps">Bize Ulaşın</span></a>
+                            <a class=" nav-link" href="/Ar/contact/index"><i class="fa fa-phone-square"></i><span
+                                    data-i18n="Apps">اتصل بنا</span></a>
 
                         </li>
                       
