@@ -141,7 +141,7 @@
             @if (item1.image != null)
             {
 
-            <div class="chip chip-warning mr-1">
+            <div class="chip chip-primary mr-1">
                 <div class="chip-body">
                     <div class="avatar">
                         <img class="img-fluid" src="~/fileupload/@item1.image" alt="generic img placeholder" height="20"
@@ -153,7 +153,7 @@
             }else{
 
 
-            <div class="chip chip-warning mr-1">
+            <div class="chip chip-primary mr-1">
                 <div class="chip-body">
                     <div class="avatar">
                         <img class="img-fluid" src="../../icons/user.png" alt="generic img placeholder" height="20"
@@ -181,11 +181,11 @@
 
         @if (User.Identity.IsAuthenticated)
         {
-        <span class="alert alert-success mb-5" id="msg">نظر خود را تبت کنید</span>
+        <span class="alert alert-primary mb-5" id="msg">نظر خود را تبت کنید</span>
         <br />
         }else
         {
-        <span class="alert alert-success mb-5" id="msg">برای ثبت نظر حتما باید وارد سایت شوید</span>
+        <span class="alert alert-primary mb-5" id="msg">برای ثبت نظر حتما باید وارد سایت شوید</span>
         <br />
 
         }

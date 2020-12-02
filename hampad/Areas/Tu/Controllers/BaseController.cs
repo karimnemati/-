@@ -16,7 +16,7 @@ using Microsoft.Extensions.Logging;
 using ViewModels.AdminViewModel.Originality;
 
 namespace  hampad.Areas.Tu.Controllers {
-                [Area("Tu")]
+    [Area("Tu")]
 
     public class BaseController : Controller {
         ////////////////////////////////////////////////////type db
@@ -24,7 +24,7 @@ namespace  hampad.Areas.Tu.Controllers {
         public readonly IWebHostEnvironment _env;
         
 
-        public static string ln = "tu", error, eror, suc, NewFileName;
+        public static string ln = "tr", error, eror, suc, NewFileName;
 
         public BaseController (ContextHampadco _db, IWebHostEnvironment env) {
             _env = env;

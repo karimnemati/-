@@ -5,7 +5,7 @@
 <!-- Input Style start -->
 @if ( ViewBag.err != null)
 {
-<p class="alert alert-success">@ViewBag.err</p>
+<p class="alert alert-primary">@ViewBag.err</p>
 }
 
 <form action="/profile/add" method="POST" enctype="multipart/form-data">
@@ -91,7 +91,7 @@
 
               <div class="col-sm-12 col-12">
                 <fieldset style="text-align: center;" class="form-group mt-4">
-                  <button type="submit" class="btn btn-success mr-1 mb-1">تخزين</button>
+                  <button type="submit" class="btn btn-primary mr-1 mb-1">تخزين</button>
                   <button type="button" class="btn btn-danger mr-1 mb-1">إلغاء</button>
                 </fieldset>
               </div>

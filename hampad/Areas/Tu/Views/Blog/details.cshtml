@@ -13,7 +13,7 @@
 
                             <li>
 
-                                <div class="timeline-icon bg-warning">
+                                <div class="timeline-icon bg-primary">
                                     <i class="feather icon-check font-medium-2"></i>
                                 </div>
                                 <div class="timeline-info">
@@ -68,7 +68,7 @@
                     <div class="card-body">
                         <ul class="activity-timeline timeline-left list-unstyled" style="margin-right: 0px !important;">
                             <li>
-                                <div class="timeline-icon bg-success">
+                                <div class="timeline-icon bg-primary">
                                     <i class="feather icon-check font-medium-2"></i>
                                 </div>
                                 <div class="timeline-info">
@@ -145,7 +145,7 @@
             @if (item1.image != null)
             {
 
-            <div class="chip chip-warning mr-1">
+            <div class="chip chip-primary mr-1">
                 <div class="chip-body">
                     <div class="avatar">
                         <img class="img-fluid" src="~/fileupload/@item1.image" alt="generic img placeholder" height="20"
@@ -157,7 +157,7 @@
             }else{
 
 
-            <div class="chip chip-warning mr-1">
+            <div class="chip chip-primary mr-1">
                 <div class="chip-body">
                     <div class="avatar">
                         <img class="img-fluid" src="../../icons/user.png" alt="generic img placeholder" height="20"
@@ -185,11 +185,11 @@
 
         @if (User.Identity.IsAuthenticated)
         {
-        <span class="alert alert-success mb-5" id="msg">Yorumunuzu gönderin</span>
+        <span class="alert alert-primary mb-5" id="msg">Yorumunuzu gönderin</span>
         <br />
         }else
         {
-        <span class="alert alert-success mb-5" id="msg">Yorum yazmak için giriş yapmalısınız</span>
+        <span class="alert alert-primary mb-5" id="msg">Yorum yazmak için giriş yapmalısınız</span>
         <br />
 
         }

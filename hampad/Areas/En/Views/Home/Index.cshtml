@@ -46,7 +46,7 @@
                         @foreach (var item in ViewBag.slider)
                         {
                         <div class="swiper-slide">
-                            <a href="/product/details/@item.CategoryProductIdSlid">
+                            <a href="/En/product/details/@item.CategoryProductIdSlid">
                                 <img class="img-fluid" src="~/fileupload/@item.ImageMainSlid" alt="banner"></a>
                         </div>
                         }
@@ -108,7 +108,7 @@
 
 
                         <div class="swiper-slide ">
-                            <a href="/product/details/@item.CategoryProductIdSlid">
+                            <a href="/En/product/details/@item.CategoryProductIdSlid">
                                 <img class="img-fluid" src="~/fileupload/@item.ImageMainSlid" alt="banner" style="width: 200px;height: 200px;">
                             </a>
 
@@ -138,7 +138,7 @@
 
 <!-- parallax swiper start -->
 @* ////////////////////////////////////////////////////////////////////////////////end slider *@
-
+@* 
     <div class="row match-height">
         @if (ViewBag.first != null)
         {
@@ -170,7 +170,7 @@
 
 
 
-                        <a href="/blog/details/@item.Id" class=""><i class=" "></i> Continue writing ...</a>
+                        <a href="/En/blog/details/@item.Id" class=""><i class=" "></i> Continue writing ...</a>
                     </div>
                 </div>
             </div>
@@ -182,9 +182,9 @@
 
 
     </div>
-    
+     *@
 
-<div class=" text-center">
+@* <div class=" text-center">
 
 
     <h3 class="text-center">
@@ -193,7 +193,7 @@
         </p>
         </h1>
         <br>
-</div>
+</div> *@
 
 <section id="ecommerce-products" class="row">
 
@@ -204,7 +204,7 @@
         style="background-image:url('../app-assets/images/icons/sidRight1.png')">
         <div class="card-content alert alert-secondary ">
             <div class="item-img text-center">
-                <a href="/teaser/details/@item.Id">
+                <a href="/En/teaser/details/@item.Id">
                     <img class=" mt-1  img-fluid" src="~/app-assets/images/icons/playicon.png" alt="img-placeholder"
                         style="border-radius: 50%;">
                 </a>
@@ -262,12 +262,12 @@
               foreach (var item in ViewBag.product)
               {
                    <div class="swiper-slide text-center" style="width: 255.8px; ">
-                         <a href="/product/details/@item.Id" >
+                         <a href="/En/product/details/@item.Id" >
                         <img class="img-fluid alert alert-primary" src="~/fileupload/@item.ImageMainPro" alt="banner" style="border-radius: 50%;height: 200px;width: 200px;" >
                        </a>
                    <p  class="btn btn-outline-primary form-control">
                   
-                     <a href="/product/details/@item.Id">
+                     <a href="/En/product/details/@item.Id">
                        @item.TitleProductPro
                      </a>
                    </p>
@@ -405,7 +405,7 @@
                     </div>
                     <div class="avatar bg-rgba-primary p-50 m-0">
                         <div class="avatar-content">
-                            <i class="feather icon-message-square text-warning font-medium-5"></i>
+                            <i class="feather icon-message-square text-primary font-medium-5"></i>
                         </div>
                     </div>
                 </div>
@@ -418,7 +418,7 @@
                         <h2 class="text-bold-700 mb-0 text-center">1002</h2>
                         <p>Number of requests</p>
                     </div>
-                    <div class="avatar bg-rgba-success p-50 m-0">
+                    <div class="avatar bg-rgba-primary p-50 m-0">
                         <div class="avatar-content">
                             <i class="feather icon-users text-primary font-medium-5"></i>
                         </div>
@@ -448,7 +448,7 @@
                         <h2 class="text-bold-700 mb-0 text-center">15000</h2>
                         <p>Total number of searches</p>
                     </div>
-                    <div class="avatar bg-rgba-warning p-50 m-0">
+                    <div class="avatar bg-rgba-primary p-50 m-0">
                         <div class="avatar-content">
                             <i class="feather icon-search text-primary font-medium-5"></i>
                         </div>
@@ -489,7 +489,7 @@
             style="background-image:url('../app-assets/images/icons/sidRight1.png')">
             <div class="card-content alert alert-secondary ">
                 <div class="item-img text-center">
-                    <a href="/blog/details/@item.Id">
+                    <a href="/En/blog/details/@item.Id">
                         <img class="alert alert-primary mt-1  img-fluid" src="~/fileupload/@item.ImageMainBlo"
                             alt="img-placeholder" style="height: 250px;width: 250px;border-radius: 50%;">
                     </a>
@@ -535,7 +535,7 @@
 
 
 
-                    <a href="/blog/details/@item.Id" class=""><i class=" "></i> Read more ...</a>
+                    <a href="/En/blog/details/@item.Id" class=""><i class=" "></i> Read more ...</a>
 
 
                 </div>
@@ -586,7 +586,7 @@
                                     <ul class="activity-timeline timeline-left list-unstyled">
 
                                         <li>
-                                            <div class="timeline-icon bg-warning">
+                                            <div class="timeline-icon bg-primary">
                                                 <i class="feather icon-check font-medium-2"></i>
                                             </div>
                                             <div class="timeline-info">
@@ -675,7 +675,7 @@
                                 <div class="card-body">
                                     <ul class="activity-timeline timeline-left list-unstyled">
                                         <li>
-                                            <div class="timeline-icon bg-success">
+                                            <div class="timeline-icon bg-primary">
                                                 <i class="feather icon-check font-medium-2"></i>
                                             </div>
                                             <div class="timeline-info">
@@ -744,7 +744,7 @@
                       </fieldset>
                     </div>
                     <ul>
-                      <p class="m-0 text-warning">اگر BMI شما :</p>
+                      <p class="m-0 text-primary">اگر BMI شما :</p>
                     <li>زیر ۱۸.۵ باشد، شخص دچار کاهش وزن است.</li>
                     <li>بین ۱۸.۵ و ۲۴.۹ باشد، شخص در بازه ی وزن سالم به سر می برد.</li>
                     <li>بین ۲۵ و ۲۹.۹ باشد، شخص اضافه وزن دارد.</li>
@@ -912,7 +912,7 @@
                         <div class="card ecommerce-card col-lg-3 col-xl-3 col-md-4 col-sm-6 col-6" style="background-image:url('../app-assets/images/icons/sidRight1.png')">
                             <div class="card-content alert alert-secondary ">
                                 <div class="item-img text-center">
-                                    <a href="/expert/details/@item.Id">
+                                    <a href="/En/expert/details/@item.Id">
                                         <img style="border-radius:50%;width:100px" class="alert alert-primary mt-1  img-fluid" src="~/fileupload/@item.ImageEx" alt="img-placeholder">
                                     </a>
                                 </div>
@@ -934,7 +934,7 @@
 
 
 
-                                    <a href="/expert/details/@item.Id" class="btn btn-outline-dark waves-effect waves-light"><i class="feather icon-user "></i> مشاهده پروفایل</a>
+                                    <a href="/En/expert/details/@item.Id" class="btn btn-outline-dark waves-effect waves-light"><i class="feather icon-user "></i> View Profile</a>
 
 
                                 </div>
@@ -942,7 +942,7 @@
 
 
 
-                                    <a href="/expert/details/@item.Id" class="btn btn-outline-dark waves-effect waves-light"><i class="feather icon-user "></i> پروفایل</a>
+                                    <a href="/En/expert/details/@item.Id" class="btn btn-outline-dark waves-effect waves-light"><i class="feather icon-user "></i> profile</a>
 
                                 </div>
                             </div>

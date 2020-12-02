@@ -42,7 +42,7 @@
     <!-- BEGIN: Content-->
        @if (ViewBag.err != null)
             {
-                <p class="alert alert-success">@ViewBag.err</p>
+                <p class="alert alert-primary">@ViewBag.err</p>
             }
       <div class="content-area-wrapper">
         <div class="sidebar-left">
@@ -60,8 +60,8 @@
         <a href="/msg/index" class="list-group-item list-group-item-action border-0 pt-0 active">
           <i class="font-medium-5 feather icon-mail mr-50"></i>  صندوق الوارد<span class="badge badge-primary badge-pill float-right">@ViewBag.resiver</span>
         </a>
-        <a href="/msg/send" class="list-group-item list-group-item-action border-0"><i class="font-medium-5 fa fa-paper-plane-o mr-50"></i>  أرسلت<span class="badge badge-warning badge-pill float-right">@ViewBag.sender</span></a>
-        <a href="#" class="list-group-item list-group-item-action border-0"><i class="font-medium-5 feather icon-edit-2 mr-50"></i>  مسودة<span class="badge badge-warning badge-pill float-right">4</span> </a>
+        <a href="/msg/send" class="list-group-item list-group-item-action border-0"><i class="font-medium-5 fa fa-paper-plane-o mr-50"></i>  أرسلت<span class="badge badge-primary badge-pill float-right">@ViewBag.sender</span></a>
+        <a href="#" class="list-group-item list-group-item-action border-0"><i class="font-medium-5 feather icon-edit-2 mr-50"></i>  مسودة<span class="badge badge-primary badge-pill float-right">4</span> </a>
         <a href="#" class="list-group-item list-group-item-action border-0"><i class="font-medium-5 feather icon-star mr-50"></i> مع النجم</a>
         <a href="#" class="list-group-item list-group-item-action border-0"><i class="font-medium-5 feather icon-info mr-50"></i> بريد مؤذي<span class="badge badge-danger badge-pill float-right">3</span> </a>
         <a href="#" class="list-group-item list-group-item-action border-0"><i class="font-medium-5 feather icon-trash mr-50"></i> القمامة</a>
@@ -69,9 +69,9 @@
       <hr>
       <h5 class="my-2 pt-25">تسميات</h5>
       <div class="list-group list-group-labels font-medium-1">
-        <a href="#" class="list-group-item list-group-item-action border-0 d-flex align-items-center"><span class="bullet bullet-success mr-1"></span>  شخصي</a>
+        <a href="#" class="list-group-item list-group-item-action border-0 d-flex align-items-center"><span class="bullet bullet-primary mr-1"></span>  شخصي</a>
         <a href="#" class="list-group-item list-group-item-action border-0 d-flex align-items-center"><span class="bullet bullet-primary mr-1"></span>  شركة</a>
-        <a href="#" class="list-group-item list-group-item-action border-0 d-flex align-items-center"><span class="bullet bullet-warning mr-1"></span>  مهم</a>
+        <a href="#" class="list-group-item list-group-item-action border-0 d-flex align-items-center"><span class="bullet bullet-primary mr-1"></span>  مهم</a>
         <a href="#" class="list-group-item list-group-item-action border-0 d-flex align-items-center"><span class="bullet bullet-danger mr-1"></span>  خصوصی</a>
       </div>
     </div>
@@ -170,9 +170,9 @@
                                   <i class="feather icon-tag"></i>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="tag">
-                                    <a href="#" class="dropdown-item font-medium-1"><span class="mr-1 bullet bullet-success bullet-sm"></span>  شخصي</a>
+                                    <a href="#" class="dropdown-item font-medium-1"><span class="mr-1 bullet bullet-primary bullet-sm"></span>  شخصي</a>
                                     <a href="#" class="dropdown-item font-medium-1"><span class="mr-1 bullet bullet-primary bullet-sm"></span>  شركة</a>
-                                    <a href="#" class="dropdown-item font-medium-1"><span class="mr-1 bullet bullet-warning bullet-sm"></span>  مهم</a>
+                                    <a href="#" class="dropdown-item font-medium-1"><span class="mr-1 bullet bullet-primary bullet-sm"></span>  مهم</a>
                                     <a href="#" class="dropdown-item font-medium-1"><span class="mr-1 bullet bullet-danger bullet-sm"></span>  خصوصی</a>
                                 </div>
                             </div>
@@ -212,15 +212,15 @@
                                 </div>
                                 <div class="mail-meta-item">
                                     <span class="float-right">
-                                        <span class="mr-1 bullet bullet-success bullet-sm"></span>
+                                        <span class="mr-1 bullet bullet-primary bullet-sm"></span>
                                         <span class="mail-date">@item.DateMess</span>
                                          <a href="/msg/Detailssnd/@item.Id" class="btn btn-primary btn-sm">لمشاهدة</a>
                                          @if (item.StateMess==false)
                                          {
-                                             <a  class="btn btn-warning btn-sm" style="color: white;">غير مقروء</a>
+                                             <a  class="btn btn-primary btn-sm" style="color: white;">غير مقروء</a>
                                          }else
                                          {
-                                             <a  class="btn btn-success btn-sm" style="color: white;">اقرأ</a>
+                                             <a  class="btn btn-primary btn-sm" style="color: white;">اقرأ</a>
                                          }
                                       
                                        
