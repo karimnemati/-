@@ -2697,3 +2697,7 @@ c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\hampad.genruntim
 c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\Razor\Areas\Ar\Views\Shared\_Partial_Mainmenu_Ar.cshtml.g.cs
 c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\Razor\Areas\En\Views\Shared\_Partial_Mainmenu_En.cshtml.g.cs
 c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\Razor\Areas\Tu\Views\Shared\_Partial_Mainmenu_Tu.cshtml.g.cs
+c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Partial_ModalLang.cshtml.g.cs
+c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\Razor\Areas\Ar\Views\Shared\_Partial_ModalLangAr.cshtml.g.cs
+c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\Razor\Areas\En\Views\Shared\_Partial_ModalLangEn.cshtml.g.cs
+c:\Users\Neati\Desktop\SevenStar\hampad\obj\Debug\netcoreapp3.1\Razor\Areas\Tu\Views\Shared\_Partial_ModalLangTu.cshtml.g.cs

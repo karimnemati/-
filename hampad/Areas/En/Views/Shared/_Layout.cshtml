@@ -123,7 +123,9 @@
                         </ul>
                     </div>
                     <ul class="nav navbar-nav float-right">
-                        <li class="dropdown dropdown-language nav-item">
+                            @await Html.PartialAsync("_Partial_ModalLangEn")
+
+                        @* <li class="dropdown dropdown-language nav-item d-none d-lg-block d-xl-block ">
                             <a class="dropdown-toggle nav-link" id="dropdown-flag" href="#" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"><i class="flag-icon flag-icon-us"></i><span
                                     class="selected-language">English</span></a>
@@ -133,7 +135,7 @@
                                         class="flag-icon flag-icon-tr"></i>turkish</a><a class="dropdown-item"
                                     href="/Ar/Home/Index"><i class="flag-icon flag-icon-sa"></i>Arabic</a>
                             </div>
-                        </li>
+                        </li> *@
                         <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-expand"><i
                                     class="ficon feather icon-maximize"></i></a></li>
                         <li class="nav-item nav-search">
@@ -226,7 +228,7 @@
                         <li class=" dropdown-user nav-item">
                             <a class="btn btn-outline-primary mt-1 mr-lg-1 mr-xl-1 mr-md-1 mr-1"
                                 href="/en/admin/home/index">
-                                Log in to the admin panel
+                                Login-admin panel
 
                             </a>
 

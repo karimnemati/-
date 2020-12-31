@@ -1,0 +1,83 @@
+@{
+    Layout = null;
+}             
+
+
+<style>
+.dropbtn {
+  @* background-color: #3d27b6; *@
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  @* background-color: #3d27b6; *@
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+
+
+
+
+<div class="dropdown mt-1">
+  <a  onclick="myFunction()" class="dropbtn"  > <i class="flag-icon flag-icon-us dropbtn"></i><span class="dropbtn" style="color: black;">English</span></a>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="/home/index"><i class="flag-icon flag-icon-ir"></i> فارسی</a>
+    <a href="/tu/home/index"><i class="flag-icon flag-icon-tr"></i> turkish</a>
+    <a href="/ar/home/index"><i class="flag-icon flag-icon-sa"></i>Arabic</a>
+  </div>
+</div>
+
+
+
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>

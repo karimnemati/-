@@ -123,7 +123,10 @@
                         </ul>
                     </div>
                     <ul class="nav navbar-nav float-right">
-                        <li class="dropdown dropdown-language nav-item">
+                       
+    @await Html.PartialAsync("_Partial_ModalLang")
+
+                        @* <li class="dropdown dropdown-language nav-item d-none d-lg-block d-xl-block ">
                             <a class="dropdown-toggle nav-link" id="dropdown-flag" href="#" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"><i class="flag-icon flag-icon-ir"></i><span
                                     class="selected-language">فارسی</span></a>
@@ -133,7 +136,8 @@
                                         class="flag-icon flag-icon-tr"></i>turkish</a><a class="dropdown-item"
                                     href="/Ar/Home/Index"><i class="flag-icon flag-icon-sa"></i>Arabic</a>
                             </div>
-                        </li>
+                        </li> *@
+
                         <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-expand"><i
                                     class="ficon feather icon-maximize"></i></a></li>
                         <li class="nav-item nav-search">
@@ -146,10 +150,7 @@
                                 <ul class="search-list search-list-main"></ul>
                             </div>
                         </li>
-
-
-
-
+                        
                         @if (User.Identity.IsAuthenticated && User.Identity.Name != "admin")
                         {
                         <li class="dropdown dropdown-notification nav-item"><a class="nav-link nav-link-label" href="#"
@@ -223,39 +224,32 @@
                         }
                         else if(User.Identity.Name == "admin")
                         {
-
                         <li class=" dropdown-user nav-item">
-                            <a class="btn btn-outline-primary mt-1 mr-lg-1 mr-xl-1 mr-md-1 mr-1"
+                            <a style="font-size: 10px;"  class="btn btn-outline-primary mt-1 mr-lg-1 mr-xl-1 mr-md-1 mr-1"
                                 href="/admin/home/index">
                                 ورود به پنل مدیریت
 
                             </a>
-
                         </li>
-
                         }else{
                         <li class=" dropdown-user nav-item">
-                            <a class="btn btn-outline-primary mt-1 mr-lg-1 mr-xl-1 mr-md-1 ml-1" href="/login/index">
+                            <a style="font-size: 10px;" class="btn btn-outline-primary mt-1 mr-lg-1 mr-xl-1 mr-md-1 ml-1" href="/login/index">
                                 ورود
 
                             </a>
-
                         </li>
                         <li class=" dropdown-user nav-item">
-                            <a class="btn btn-outline-primary mt-1 mr-lg-1 mr-xl-1 mr-md-1 mr-1" href="/login/register">
+                            <a style="font-size: 10px;"  class="btn btn-outline-primary mt-1 mr-lg-1 mr-xl-1 mr-md-1 mr-1" href="/login/register">
                                 ثبت نام
 
                             </a>
 
                         </li>
-
                         }
-
                     </ul>
 
-
                     @if (User.Identity.IsAuthenticated)
-                    {<a href="/home/orgin" class="btn btn-outline-primary d-xl-block d-lg-block d-md-block d-none">
+                    {<a style="font-size: 10px;"  href="/home/orgin" class="btn btn-outline-primary d-xl-block d-lg-block d-md-block d-none">
                         <i class="feather icon-plus-circle"></i>
                         اصالت کالا
                     </a> /**/
@@ -265,7 +259,7 @@
                     }
                     else
                     {
-                    <a href="/Login/index" class="btn btn-outline-primary d-xl-block d-lg-block d-md-block d-none">
+                    <a style="font-size: 10px;" href="/Login/index" class="btn btn-outline-primary d-xl-block d-lg-block d-md-block d-none">
                         <i class="feather icon-plus-circle"></i>
                         اصالت کالا
                     </a>
@@ -322,7 +316,7 @@
         @if (User.Identity.IsAuthenticated)
         {
 
-        <a href="/home/orgin" class="btn btn-primary form-control">
+        <a href="/home/orgin" class="btn btn-primary  form-control">
             <i class="feather icon-plus-circle"></i>
             برسی اصالت کالا
         </a> /**/
@@ -426,155 +420,3 @@
 <!-- END: Body-->
 
 </html>
-
-<style>
-    /*the container must be positioned relative:*/
-    .autocomplete {
-        position: relative;
-        display: inline-block;
-        overflow: auto;
-    }
-
-    .autocomplete-items {
-        position: absolute;
-        border: 1px solid #d4d4d4;
-        border-bottom: none;
-        border-top: none;
-        z-index: 99;
-        /*position the autocomplete items to be the same width as the container:*/
-        /*bottom: 100%;*/
-        left: 0;
-        right: 0;
-        overflow: auto;
-    }
-
-    .autocomplete-items div {
-        padding: 10px;
-        cursor: pointer;
-        background-color: rgba(250, 250, 255, 0.93);
-        border-bottom: 1px solid #eae1e1;
-        overflow: auto;
-        color: #060606;
-    }
-
-    /*when hovering an item:*/
-    .autocomplete-items div:hover {
-        background-color: rgba(255, 255, 255, 0.8);
-        color: black;
-        overflow: auto;
-    }
-
-    /*when navigating through the items using the arrow keys:*/
-    .autocomplete-active {
-        background-color: DodgerBlue !important;
-        color: #ffffff;
-        overflow: auto;
-    }
-</style>
-<script>
-    function autocomplete(inp, arr) {
-        /*the autocomplete function takes two arguments,
-        the text field element and an array of possible autocompleted values:*/
-        var currentFocus;
-        /*execute a function when someone writes in the text field:*/
-        inp.addEventListener("input", function (e) {
-            var a, b, i, val = this.value;
-            /*close any already open lists of autocompleted values*/
-            closeAllLists();
-            if (!val) { return false; }
-            currentFocus = -1;
-            /*create a DIV element that will contain the items (values):*/
-            a = document.createElement("DIV");
-            a.setAttribute("id", this.id + "autocomplete-list");
-            a.setAttribute("class", "autocomplete-items");
-            /*append the DIV element as a child of the autocomplete container:*/
-            this.parentNode.appendChild(a);
-            /*for each item in the array...*/
-            for (i = 0; i < arr.length; i++) {
-                /*check if the item starts with the same letters as the text field value:*/
-                if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
-                    /*create a DIV element for each matching element:*/
-                    b = document.createElement("DIV");
-                    /*make the matching letters bold:*/
-                    b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
-                    b.innerHTML += arr[i].substr(val.length);
-                    /*insert a input field that will hold the current array item's value:*/
-                    b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
-                    /*execute a function when someone clicks on the item value (DIV element):*/
-                    b.addEventListener("click", function (e) {
-                        /*insert the value for the autocomplete text field:*/
-                        inp.value = this.getElementsByTagName("input")[0].value;
-                        /*close the list of autocompleted values,
-                        (or any other open lists of autocompleted values:*/
-                        closeAllLists();
-                    });
-                    a.appendChild(b);
-                }
-            }
-        });
-        /*execute a function presses a key on the keyboard:*/
-        inp.addEventListener("keydown", function (e) {
-            var x = document.getElementById(this.id + "autocomplete-list");
-            if (x) x = x.getElementsByTagName("div");
-            if (e.keyCode == 40) {
-                /*If the arrow DOWN key is pressed,
-                increase the currentFocus variable:*/
-                currentFocus++;
-                /*and and make the current item more visible:*/
-                addActive(x);
-            } else if (e.keyCode == 38) { //up
-                /*If the arrow UP key is pressed,
-                decrease the currentFocus variable:*/
-                currentFocus--;
-                /*and and make the current item more visible:*/
-                addActive(x);
-            } else if (e.keyCode == 13) {
-                /*If the ENTER key is pressed, prevent the form from being submitted,*/
-                e.preventDefault();
-                if (currentFocus > -1) {
-                    /*and simulate a click on the "active" item:*/
-                    if (x) x[currentFocus].click();
-                }
-            }
-        });
-        function addActive(x) {
-            /*a function to classify an item as "active":*/
-            if (!x) return false;
-            /*start by removing the "active" class on all items:*/
-            removeActive(x);
-            if (currentFocus >= x.length) currentFocus = 0;
-            if (currentFocus < 0) currentFocus = (x.length - 1);
-            /*add class "autocomplete-active":*/
-            x[currentFocus].classList.add("autocomplete-active");
-        }
-        function removeActive(x) {
-            /*a function to remove the "active" class from all autocomplete items:*/
-            for (var i = 0; i < x.length; i++) {
-                x[i].classList.remove("autocomplete-active");
-            }
-        }
-        function closeAllLists(elmnt) {
-            /*close all autocomplete lists in the document,
-            except the one passed as an argument:*/
-            var x = document.getElementsByClassName("autocomplete-items");
-            for (var i = 0; i < x.length; i++) {
-                if (elmnt != x[i] && elmnt != inp) {
-                    x[i].parentNode.removeChild(x[i]);
-                }
-            }
-        }
-        /*execute a function when someone clicks in the document:*/
-        document.addEventListener("click", function (e) {
-            closeAllLists(e.target);
-        });
-    }
-
-    /*An array containing all the country names in the world:*/
-    var countries =  @Html.Raw(Json.Serialize(ViewData["FieldsList"]));
-    var countries1 =  @Html.Raw(Json.Serialize(ViewData["FieldsList1"]));
-    /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
-    autocomplete(document.getElementById("myInput"), countries);
-    autocomplete(document.getElementById("myInput2"), countries1);
-
-
-</script>

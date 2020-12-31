@@ -14,6 +14,9 @@
 
 
 
+
+
+
 @* //////////////////////////////////////////////////////////////////////////////// slider *@
 
 
@@ -33,64 +36,44 @@
 
 
 
-<!-- gallery swiper start -->
-<section id="component-swiper-gallery">
-    <div class="card ">
+<!-- autoplay swiper start -->
+<section id="component-swiper-autoplay">
+  <div class="card ">
 
-        <div class="card-content">
-            <div class="card-body">
-                <div class="swiper-gallery swiper-container gallery-top">
-                    <div class="swiper-wrapper">
-                        @if ( ViewBag.slider != null)
+    <div class="card-content">
+      <div class="card-body">
+        <div class="swiper-autoplay swiper-container">
+          <div class="swiper-wrapper">
+                
+          @if ( ViewBag.slider != null)
                         {
                         @foreach (var item in ViewBag.slider)
                         {
-                        <div class="swiper-slide">
+                        <div class="swiper-slide mt-3">
                             <a href="/product/details/@item.CategoryProductIdSlid">
                                 <img class="img-fluid" src="~/fileupload/@item.ImageMainSlid" alt="banner"></a>
                         </div>
                         }
                         }
                         else{
-                        <div class="swiper-slide"> <img class="img-fluid"
+                        <div class="swiper-slide mt-3"> <img class="img-fluid"
                                 src="..\..\..\app-assets\images\banner\banner-11.jpg" alt="banner">
                         </div>
                         }
 
-
-
-                    </div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-                <div class="swiper-container gallery-thumbs">
-                    <div class="swiper-wrapper mt-25">
-
-
-                        @if ( ViewBag.slider != null)
-                        {
-                        @foreach (var item in ViewBag.slider)
-                        {
-                        <div class="swiper-slide"> <img class="img-fluid" src="~/fileupload/@item.ImageMainSlid"
-                                alt="banner">
-                        </div>
-                        }
-                        }
-                        else{
-                        <div class="swiper-slide"> <img class="img-fluid"
-                                src="..\..\..\app-assets\images\banner\banner-11.jpg" alt="banner">
-                        </div>
-                        }
-
-
-                    </div>
-                </div>
-            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
+      </div>
     </div>
+  </div>
 </section>
-<!-- gallery swiper ends -->
+<!-- autoplay swiper ends -->
+
 <!-- coverflow effect swiper start -->
 <section id="component-swiper-coverflow">
     <div class="card ">
@@ -205,8 +188,13 @@
         <div class="card-content alert alert-secondary ">
             <div class="item-img text-center">
                 <a href="/tu/teaser/details/@item.Id">
-                    <img class=" mt-1  img-fluid" src="~/app-assets/images/icons/playicon.png" alt="img-placeholder"
-                        style="border-radius: 50%;">
+                       <div class="footer-btn alert alert-primary text-center ">
+
+                                             <video width="70%" height="70%px" controls  id="output_image">
+                                         <source  src="~/fileupload/@item.LinkVideoTeaser" type="video/mp4">
+                                        <source src="movie.ogg" type="video/ogg">
+                                        </video>
+                                    </div>
                 </a>
             </div>
             <div class="card-body">
@@ -261,15 +249,20 @@
           {
               foreach (var item in ViewBag.product)
               {
-                   <div class="swiper-slide text-center" style="width: 255.8px; ">
+                   <div class="swiper-slide text-center col-4 col-md-2 col-lg-2 col-xs-3" >
                          <a href="/tu/product/details/@item.Id" >
-                        <img class="img-fluid alert alert-primary" src="~/fileupload/@item.ImageMainPro" alt="banner" style="border-radius: 50%;height: 200px;width: 200px;" >
+                        <img class="img-fluid alert alert-primary" src="~/fileupload/@item.ImageMainPro" alt="banner" style="border-radius: 50%;" >
                        </a>
-                   <p  class="btn btn-outline-primary form-control">
+                   <p  class="btn btn-outline-primary row d-none d-lg-block d-md-block d-sm-block" >
                   
                      <a href="/tu/product/details/@item.Id">
-                       @item.TitleProductPro
-                     </a>
+@if (@item.TitleProductPro.Length >=25)
+                     {
+                         @item.TitleProductPro.Substring(0,25)
+                     }else
+                     {
+                          @item.TitleProductPro
+                     }                     </a>
                    </p>
              </div>
                   
@@ -310,91 +303,7 @@
 <!-- Dashboard Analytics Start -->
 <section id="dashboard-analytics">
 
-    <div class="row">
-
-
-        <div class="col-lg-6 col-md-12 col-sm-12">
-
-            <div class="card bg-analytics text-white alert alert-primary">
-                <div class="card-content">
-                    <div class="card-body text-center">
-
-                        <div class="  mt-2">
-                            <div class="">
-                                <h2 class="mb-2 alert  alert-primary " style="color:black !important">
-                                    Ürün Arama </h2>
-                            </div>
-                        </div>
-                        <img src="~/app-assets/images/icons/sideleft.png" class="img-left" alt="
-            card-img-left" style="z-index:-1">
-                        <div class="text-center mt-2">
-                            <input id="myInput" autocomplete="off" class="form-control"
-                                placeholder="Ürün başlığını girin.." />
-                        </div>
-                        <div class="text-center mt-2">
-
-                            <button onclick="search();" class="btn btn-flat-black"
-                                style="background-color:#E2E2E5 !important"><i class="feather icon-search "></i> Arama
-                                 Ürünlerde</button>
-                            <script>
-
-                                function search() {
-                                    if ($("#myInput").val() != "") {
-                                        window.location.href = "/tu/Home/Location_Jobs?txt=" + $("#myInput").val();
-                                    }
-
-                                }
-                            </script>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
-
-            <div class="card bg-analytics text-white alert alert-primary">
-                <div class="card-content">
-                    <div class="card-body text-center">
-
-                        <div class="  mt-2">
-                            <div class="">
-                                <h1 class="mb-2 alert alert-primary " style="color:black !important">
-                                    Blogda ara</h1>
-                            </div>
-                        </div>
-                        <img src="~/app-assets/images/icons/sideleft.png" class="img-left" alt="card-img-left"
-                            style="z-index:-1">
-                        <div class="text-center mt-2">
-                            <input autocomplete="off" id="myInput2" class="form-control"
-                                placeholder="Başlığı girin.." />
-                        </div>
-                        <div class="text-center mt-2">
-
-                            <button onclick="search4()" class="btn btn-flat-black mt-xl-0 mt-lg-0 mt-md-0 mt-sm-0 mt-1"
-                                style="background-color:#E2E2E5 !important">Haberleri ara<i
-                                    class="feather icon-search"></i> </button>
-                        </div>
-                        <script>
-
-
-                            function search4() {
-                                if ($("#myInput2").val() != "") {
-                                    window.location.href = "/tu/home/list_work?txt=" + $("#myInput2").val();
-                                }
-
-                            }
-                        </script>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
-    </div>
+   
 
     <div class="row">
         <div class="col-lg-3 col-sm-6 col-6">
@@ -569,155 +478,6 @@
 
 
 
-    <div class="row match-height justify-content-center mt-2  ">
-        <div class="col-lg-10 col-12  text-center">
-
-            <section id="timeline-card">
-
-                <div class="row ">
-                    @if (ViewBag.address != null)
-                    {
-                    @foreach (var item in ViewBag.address)
-                    {
-                    <div class="col-lg-6 col-sm-12">
-                        <div class="card">
-
-                            <div class="card-content">
-                                <div class="card-body">
-                                    <ul class="activity-timeline timeline-left list-unstyled">
-
-                                        <li>
-                                            <div class="timeline-icon bg-primary">
-                                                <i class="feather icon-check font-medium-2"></i>
-                                            </div>
-                                            <div class="timeline-info">
-                                                <p class="font-weight-bold" style="text-align: right;">
-                                                    Sabit iletişim numaraları :</p>
-                                                <br>
-
-
-                                                <div
-                                                    class="col-lg-12 d-lg-block  text-center align-self-center px-1 py-0">
-
-
-                                                    <div class="footer-btn alert alert-primary  ">
-
-                                                        <a href="tel:@item.Officetel1Ad"
-                                                            class="btn btn-primary col-12 text-white  waves-effect waves-light"><span
-                                                                class="feather icon-phone-call mr-1"></span> telefon numarası
-                                                            İlk sabit :@item.Officetel1Ad</a>
-                                                        @if (@item.Officetel2Ad != null)
-                                                        {
-                                                        <a href="tel:@item.Officetel2Ad"
-                                                            class="btn btn-primary col-12 text-white  waves-effect waves-light mt-2"><span
-                                                                class="feather icon-phone-call mr-1"></span> telefon numarası
-                                                            İlk sabit :@item.Officetel2Ad</a>
-                                                        }
-                                                    </div>
-                                                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            </div>
-
-                                        </li>
-
-                                        <li>
-                                            <div class="timeline-icon bg-primary">
-                                                <i class="feather icon-check font-medium-2"></i>
-                                            </div>
-                                            <div class="timeline-info">
-                                                <p class="font-weight-bold" style="text-align: right;">
-                                                    Mobil iletişim numaraları :</p>
-                                                <br>
-                                                <p style="text-align: ;line-height: 50px;font-size: 20px;">
-                                                    <a style="text-align: ;line-height: 50px;font-size: 20px;"
-                                                        href="tel:@item.Tel1Ad">
-                                                        <b class="btn btn-primary btn-lg">@item.Tel1Ad</b>
-                                                        <i class="fa fa-phone"></i>
-                                                    </a>
-                                                    @if (@item.Tel2Ad != null)
-                                                    {
-                                                    <a style="text-align: ;line-height: 50px;font-size: 20px;"
-                                                        href="tel:@item.Tel2Ad">
-                                                        <b class="btn btn-primary btn-lg">@item.Tel2Ad</b>
-                                                        <i class="fa fa-phone"></i>
-                                                    </a>
-                                                    }
-
-
-                                            </div>
-
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <div class="card">
-
-                            <div class="card-content">
-                                <div class="card-body">
-                                    <ul class="activity-timeline timeline-left list-unstyled">
-                                        <li>
-                                            <div class="timeline-icon bg-primary">
-                                                <i class="feather icon-check font-medium-2"></i>
-                                            </div>
-                                            <div class="timeline-info">
-                                                <p class="font-weight-bold" style="text-align: right;"> Adresler :</p>
-                                                <br>
-
-                                                <div class="footer-btn alert alert-primary  ">
-
-                                                    <a href=""
-                                                        class="btn btn-primary col-12 text-white  waves-effect waves-light"><span
-                                                            class="feather icon-map-pin mr-1"
-                                                            style="line-height: 30px;"></span> İlk adres :
-                                                        @item.FirstAddress</a>
-                                                    @if (@item.SecondAddress != null)
-                                                    {
-                                                    <a href=""
-                                                        class="btn btn-primary col-12 text-white  waves-effect waves-light mt-2 "
-                                                        style="line-height: 30px;"><span
-                                                            class="feather icon-map-pin mr-1"></span> İkinci adres
-                                                        :@item.SecondAddress</a>
-                                                    }
-                                                </div>
-
-
-                                            </div>
-
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    }
-                    }
-
-                </div>
-            </section>
-        </div>
-
-    </div>
     @* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////sobhan *@
 
 @* <section id="overlay-image-chat-cards">
@@ -913,7 +673,7 @@
                             <div class="card-content alert alert-secondary ">
                                 <div class="item-img text-center">
                                     <a href="/tu/expert/details/@item.Id">
-                                        <img style="border-radius:50%;width:100px" class="alert alert-primary mt-1  img-fluid" src="~/fileupload/@item.ImageEx" alt="img-placeholder">
+                                        <img  style="border-radius:50%;width:120px; height: 120px;" class="alert alert-primary mt-1  img-fluid" src="~/fileupload/@item.ImageEx" alt="img-placeholder">
                                     </a>
                                 </div>
                                 <div class="card-body">
@@ -962,6 +722,161 @@
 
 
 
+
+
+
+    <div class="row match-height justify-content-center mt-2  ">
+        <div class="col-lg-10 col-12  text-center">
+
+            <section id="timeline-card">
+
+                <div class="row ">
+                    @if (ViewBag.address != null)
+                    {
+                    @foreach (var item in ViewBag.address)
+                    {
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="card">
+
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <ul class="activity-timeline timeline-left list-unstyled">
+
+                                        <li>
+                                            <div class="timeline-icon bg-primary">
+                                                <i class="feather icon-check font-medium-2"></i>
+                                            </div>
+                                            <div class="timeline-info">
+                                                <p class="font-weight-bold" style="text-align: right;">
+                                                    Sabit iletişim numaraları :</p>
+                                                <br>
+
+
+                                                <div
+                                                    class="col-lg-12 d-lg-block  text-center align-self-center px-1 py-0">
+
+
+                                                    <div class="footer-btn alert alert-primary  ">
+
+                                                        <a href="tel:@item.Officetel1Ad"
+                                                            class="btn btn-primary col-12 text-white  waves-effect waves-light"><span
+                                                                class="feather icon-phone-call mr-1"></span> telefon numarası
+                                                            İlk sabit :@item.Officetel1Ad</a>
+                                                        @if (@item.Officetel2Ad != null)
+                                                        {
+                                                        <a href="tel:@item.Officetel2Ad"
+                                                            class="btn btn-primary col-12 text-white  waves-effect waves-light mt-2"><span
+                                                                class="feather icon-phone-call mr-1"></span> telefon numarası
+                                                            İlk sabit :@item.Officetel2Ad</a>
+                                                        }
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            </div>
+
+                                        </li>
+
+                                        <li>
+                                            <div class="timeline-icon bg-primary">
+                                                <i class="feather icon-check font-medium-2"></i>
+                                            </div>
+                                            <div class="timeline-info">
+                                                <p class="font-weight-bold" style="text-align: right;">
+                                                    Mobil iletişim numaraları :</p>
+                                                <br>
+                                                <p style="text-align: ;line-height: 50px;font-size: 20px;">
+                                                    <a style="text-align: ;line-height: 50px;font-size: 20px;"
+                                                        href="tel:@item.Tel1Ad">
+                                                        <b class="btn btn-primary btn-lg">@item.Tel1Ad</b>
+                                                        <i class="fa fa-phone"></i>
+                                                    </a>
+                                                    @if (@item.Tel2Ad != null)
+                                                    {
+                                                    <a style="text-align: ;line-height: 50px;font-size: 20px;"
+                                                        href="tel:@item.Tel2Ad">
+                                                        <b class="btn btn-primary btn-lg">@item.Tel2Ad</b>
+                                                        <i class="fa fa-phone"></i>
+                                                    </a>
+                                                    }
+
+
+                                            </div>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="card">
+
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <ul class="activity-timeline timeline-left list-unstyled">
+                                        <li>
+                                            <div class="timeline-icon bg-primary">
+                                                <i class="feather icon-check font-medium-2"></i>
+                                            </div>
+                                            <div class="timeline-info">
+                                                <p class="font-weight-bold" style="text-align: right;"> Adresler :</p>
+                                                <br>
+
+                                                <div class="footer-btn alert alert-primary  ">
+
+                                                    <a href=""
+                                                        class="btn btn-primary col-12 text-white  waves-effect waves-light"><span
+                                                            class="feather icon-map-pin mr-1"
+                                                            style="line-height: 30px;"></span> İlk adres :
+                                                        @item.FirstAddress</a>
+                                                    @if (@item.SecondAddress != null)
+                                                    {
+                                                    <a href=""
+                                                        class="btn btn-primary col-12 text-white  waves-effect waves-light mt-2 "
+                                                        style="line-height: 30px;"><span
+                                                            class="feather icon-map-pin mr-1"></span> İkinci adres
+                                                        :@item.SecondAddress</a>
+                                                    }
+                                                </div>
+
+
+                                            </div>
+
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    }
+                    }
+
+                </div>
+            </section>
+        </div>
+
+    </div>
+    
+    
+
 <!-- Dashboard Analytics end -->
 
 
@@ -979,3 +894,8 @@
 <!-- BEGIN: Page JS-->
 <script src="..\..\..\app-assets\js\scripts\extensions\swiper.min.js"></script>
 <!-- END: Page JS-->
+
+
+
+
+

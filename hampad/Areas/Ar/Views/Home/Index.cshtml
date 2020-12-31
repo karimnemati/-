@@ -9,6 +9,12 @@
 <link rel="stylesheet" type="text/css" href="..\..\..\app-assets\css-rtl\plugins\extensions\swiper.min.css">
 <!-- END: Page CSS-->
 
+
+
+
+
+
+
 @* //////////////////////////////////////////////////////////////////////////////// slider *@
 
 <!-- default swiper start -->
@@ -17,62 +23,44 @@
 </div>
 
 <!-- default swiper ends -->
+<!-- autoplay swiper start -->
+<section id="component-swiper-autoplay">
+  <div class="card ">
 
-<!-- gallery swiper start -->
-<section id="component-swiper-gallery">
-    <div class="card ">
-
-        <div class="card-content">
-            <div class="card-body">
-                <div class="swiper-gallery swiper-container gallery-top">
-                    <div class="swiper-wrapper">
-                        @if ( ViewBag.slider != null)
+    <div class="card-content">
+      <div class="card-body">
+        <div class="swiper-autoplay swiper-container">
+          <div class="swiper-wrapper">
+                
+          @if ( ViewBag.slider != null)
                         {
                         @foreach (var item in ViewBag.slider)
                         {
-                        <div class="swiper-slide">
-                            <a href="/ar/product/details/@item.CategoryProductIdSlid">
+                        <div class="swiper-slide mt-3">
+                            <a href="/product/details/@item.CategoryProductIdSlid">
                                 <img class="img-fluid" src="~/fileupload/@item.ImageMainSlid" alt="banner"></a>
                         </div>
                         }
                         }
                         else{
-                        <div class="swiper-slide"> <img class="img-fluid"
-                                src="..\..\..\app-assets\images\banner\banner-11.jpg" alt="banner">
-                        </div>
-                        }
-                    </div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-                <div class="swiper-container gallery-thumbs">
-                    <div class="swiper-wrapper mt-25">
-
-
-                        @if ( ViewBag.slider != null)
-                        {
-                        @foreach (var item in ViewBag.slider)
-                        {
-                        <div class="swiper-slide"> <img class="img-fluid" src="~/fileupload/@item.ImageMainSlid"
-                                alt="banner">
-                        </div>
-                        }
-                        }
-                        else{
-                        <div class="swiper-slide"> <img class="img-fluid"
+                        <div class="swiper-slide mt-3"> <img class="img-fluid"
                                 src="..\..\..\app-assets\images\banner\banner-11.jpg" alt="banner">
                         </div>
                         }
 
-
-                    </div>
-                </div>
-            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
+      </div>
     </div>
+  </div>
 </section>
-<!-- gallery swiper ends -->
+<!-- autoplay swiper ends -->
+
 <!-- coverflow effect swiper start -->
 <section id="component-swiper-coverflow">
     <div class="card ">
@@ -170,8 +158,13 @@
         <div class="card-content alert alert-secondary ">
             <div class="item-img text-center">
                 <a href="/ar/teaser/details/@item.Id">
-                    <img class=" mt-1  img-fluid" src="~/app-assets/images/icons/playicon.png" alt="img-placeholder"
-                        style="border-radius: 50%;">
+                            <div class="footer-btn alert alert-primary text-center ">
+
+                                             <video width="70%" height="70%px" controls  id="output_image">
+                                         <source  src="~/fileupload/@item.LinkVideoTeaser" type="video/mp4">
+                                        <source src="movie.ogg" type="video/ogg">
+                                        </video>
+                                    </div>
                 </a>
             </div>
             <div class="card-body">
@@ -212,16 +205,21 @@
                         {
                         foreach (var item in ViewBag.product)
                         {
-                        <div class="swiper-slide text-center" style="width: 255.8px; ">
+                        <div class="swiper-slide text-center  col-4 col-md-2 col-lg-2 col-xs-3">
                             <a href="/ar/product/details/@item.Id">
                                 <img class="img-fluid alert alert-primary" src="~/fileupload/@item.ImageMainPro"
-                                    alt="banner" style="border-radius: 50%;height: 200px;width: 200px;">
+                                    alt="banner" style="border-radius: 50%;">
                             </a>
-                            <p class="btn btn-outline-primary form-control">
+                   <p  class="btn btn-outline-primary row d-none d-lg-block d-md-block d-sm-block" >
 
                                 <a href="/ar/product/details/@item.Id">
-                                    @item.TitleProductPro
-                                </a>
+@if (@item.TitleProductPro.Length >=25)
+                     {
+                         @item.TitleProductPro.Substring(0,25)
+                     }else
+                     {
+                          @item.TitleProductPro
+                     }                                </a>
                             </p>
                         </div>
                         }
@@ -245,80 +243,7 @@
 
 <!-- Dashboard Analytics Start -->
 <section id="dashboard-analytics">
-    <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-
-            <div class="card bg-analytics text-white alert alert-primary">
-                <div class="card-content">
-                    <div class="card-body text-center">
-
-                        <div class="  mt-2">
-                            <div class="">
-                                <h2 class="mb-2 alert  alert-primary " style="color:black !important">
-                                    بحث منتوج </h2>
-                            </div>
-                        </div>
-                        <img src="~/app-assets/images/icons/sideleft.png" class="img-left" alt=" card-img-left" style="z-index:-1">
-                        <div class="text-center mt-2">
-                            <input id="myInput" autocomplete="off" class="form-control"
-                                placeholder="أدخل عنوان المنتج.." />
-                        </div>
-                        <div class="text-center mt-2">
-
-                            <button onclick="search();" class="btn btn-flat-black"
-                                style="background-color:#E2E2E5 !important"><i class="feather icon-search "></i> بحث
-                                منتوج</button>
-                            <script>
-
-                                function search() {
-                                    if ($("#myInput").val() != "") {
-                                        window.location.href = "/Home/Location_Jobs?txt=" + $("#myInput").val();
-                                    }
-                                }
-                            </script>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <div class="card bg-analytics text-white alert alert-primary">
-                <div class="card-content">
-                    <div class="card-body text-center">
-
-                        <div class="  mt-2">
-                            <div class="">
-                                <h1 class="mb-2 alert alert-primary " style="color:black !important">
-                                    ابحث في المدونة</h1>
-                            </div>
-                        </div>
-                        <img src="~/app-assets/images/icons/sideleft.png" class="img-left" alt="card-img-left" style="z-index:-1">
-                        <div class="text-center mt-2">
-                            <input autocomplete="off" id="myInput2" class="form-control"
-                                placeholder="أدخل عنوان الأخبار.." />
-                        </div>
-                        <div class="text-center mt-2">
-
-                            <button onclick="search4()" class="btn btn-flat-black mt-xl-0 mt-lg-0 mt-md-0 mt-sm-0 mt-1"
-                                style="background-color:#E2E2E5 !important">ابحث في الأخبار<i
-                                    class="feather icon-search"></i> </button>
-                        </div>
-                        <script>
-
-
-                            function search4() {
-                                if ($("#myInput2").val() != "") {
-                                    window.location.href = "/home/list_work?txt=" + $("#myInput2").val();
-                                }
-
-                            }
-                        </script>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <div class="row">
         <div class="col-lg-3 col-sm-6 col-6">
             <div class="card">
@@ -448,6 +373,64 @@
         }
     </section>
 
+    <div class=" text-center ">
+
+
+        <h3 class="text-center">
+            <p style="vertical-align: inherit;">
+            </p>
+            <p class="alert alert-primary" style="vertical-align: inherit;"> قائمة الخبراء والمدربين</p>
+            <p></p>
+        </h3>
+        <br>
+    </div>
+
+    <section id="ecommerce-products" class="row">
+        @{
+        if (ViewBag.expert != null)
+        {
+        foreach (var item in ViewBag.expert)
+        {
+        <div class="card ecommerce-card col-lg-3 col-xl-3 col-md-4 col-sm-6 col-6"
+            style="background-image:url('../app-assets/images/icons/sidRight1.png')">
+            <div class="card-content alert alert-secondary ">
+                <div class="item-img text-center">
+                    <a href="/ar/expert/details/@item.Id">
+                        <img  style="border-radius:50%;width:120px; height: 120px;" class="alert alert-primary mt-1  img-fluid"
+                            src="~/fileupload/@item.ImageEx" alt="img-placeholder">
+                    </a>
+                </div>
+                <div class="card-body">
+                    <div class="item-wrapper text-center">
+                        <div class="item-rating">
+                            <div class="badge badge-primary badge-md ">
+                                @item.NameEx
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item-options text-center d-xl-block d-lg-block d-md-block d-sm-block d-none">
+                    <a href="/Ar/expert/details/@item.Id" class="btn btn-outline-dark waves-effect waves-light"><i
+                            class="feather icon-user "></i> عرض الصفحة الشخصية</a>
+                </div>
+                <div class="item-options text-center d-xl-none d-lg-none d-md-none d-sm-none d-block">
+                    <a href="/Ar/expert/details/@item.Id" class="btn btn-outline-dark waves-effect waves-light"><i
+                            class="feather icon-user "></i> معلومات شخصية</a>
+
+                </div>
+            </div>
+        </div>
+        }
+        }
+        }
+    </section>
+
+
+
+
+
+
     <div class="row match-height justify-content-center mt-2  ">
         <div class="col-lg-10 col-12  text-center">
             <section id="timeline-card">
@@ -566,60 +549,7 @@
         </div>
 
     </div>
-
-    <div class=" text-center ">
-
-
-        <h3 class="text-center">
-            <p style="vertical-align: inherit;">
-            </p>
-            <p class="alert alert-primary" style="vertical-align: inherit;"> قائمة الخبراء والمدربين</p>
-            <p></p>
-        </h3>
-        <br>
-    </div>
-
-    <section id="ecommerce-products" class="row">
-        @{
-        if (ViewBag.expert != null)
-        {
-        foreach (var item in ViewBag.expert)
-        {
-        <div class="card ecommerce-card col-lg-3 col-xl-3 col-md-4 col-sm-6 col-6"
-            style="background-image:url('../app-assets/images/icons/sidRight1.png')">
-            <div class="card-content alert alert-secondary ">
-                <div class="item-img text-center">
-                    <a href="/ar/expert/details/@item.Id">
-                        <img style="border-radius:50%;width:100px" class="alert alert-primary mt-1  img-fluid"
-                            src="~/fileupload/@item.ImageEx" alt="img-placeholder">
-                    </a>
-                </div>
-                <div class="card-body">
-                    <div class="item-wrapper text-center">
-                        <div class="item-rating">
-                            <div class="badge badge-primary badge-md ">
-                                @item.NameEx
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="item-options text-center d-xl-block d-lg-block d-md-block d-sm-block d-none">
-                    <a href="/Ar/expert/details/@item.Id" class="btn btn-outline-dark waves-effect waves-light"><i
-                            class="feather icon-user "></i> عرض الصفحة الشخصية</a>
-                </div>
-                <div class="item-options text-center d-xl-none d-lg-none d-md-none d-sm-none d-block">
-                    <a href="/Ar/expert/details/@item.Id" class="btn btn-outline-dark waves-effect waves-light"><i
-                            class="feather icon-user "></i> معلومات شخصية</a>
-
-                </div>
-            </div>
-        </div>
-        }
-        }
-        }
-    </section>
-
+    
     <!-- Dashboard Analytics end -->
     <!-- BEGIN: Vendor JS-->
     <script src="..\..\..\app-assets\vendors\js\vendors.min.js"></script>

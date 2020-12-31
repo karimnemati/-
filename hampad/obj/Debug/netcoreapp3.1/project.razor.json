@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\hampad.csproj",
+  "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\hampad.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,923 +14392,943 @@
   "RootNamespace": "hampad",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Gallery\\index.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Gallery\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Teaser\\details.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Teaser\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\teaser\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\teaser\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Expert\\details.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Expert\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\cart\\list.cshtml",
-      "TargetPath": "Views\\cart\\list.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\login_admin\\index.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\login_admin\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Login\\Forget.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Login\\Forget.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Msg\\send.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Msg\\send.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\SocialNetwork\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\SocialNetwork\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\order\\sender.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\order\\sender.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Login\\index.cshtml",
-      "TargetPath": "Views\\Login\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Gallery\\index.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Gallery\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Sourcehelp\\UploadImageMulti.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Sourcehelp\\UploadImageMulti.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Teaser\\details.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Teaser\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\En\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Msg\\Detailssnd.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Msg\\Detailssnd.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Agancy\\index.cshtml",
-      "TargetPath": "Views\\Agancy\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Baner\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Baner\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Sourcehelp\\List.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Sourcehelp\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Expert\\details.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Expert\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Blog\\details.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Blog\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Gallery\\index.cshtml",
-      "TargetPath": "Views\\Gallery\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Product\\index.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Product\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Msg\\Details.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Msg\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Expert\\index.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Expert\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Login\\index.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Login\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Login\\Forget.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Login\\Forget.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\teaser\\List.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\teaser\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Category\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Category\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Teaser\\index.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Teaser\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Blog\\index.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Blog\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Expert\\details.cshtml",
-      "TargetPath": "Views\\Expert\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Msg\\send.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Msg\\send.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Msg\\send.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Msg\\send.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Msg\\index.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Msg\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Msg\\index.cshtml",
-      "TargetPath": "Views\\Msg\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Expert\\index.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Expert\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Msg\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Msg\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\product\\list.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\product\\list.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\blog\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\blog\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Contact\\index.cshtml",
-      "TargetPath": "Views\\Contact\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Product\\index.cshtml",
-      "TargetPath": "Views\\Product\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\product\\update.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\product\\update.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Teaser\\details.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Teaser\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\slider\\List.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\slider\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Shared\\_Partial_Menu_irandoc.cshtml",
-      "TargetPath": "Views\\Shared\\_Partial_Menu_irandoc.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Msg\\Details.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Msg\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\comment\\Acceptede.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\comment\\Acceptede.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\login_admin\\index.cshtml",
-      "TargetPath": "Views\\login_admin\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Msg\\index.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Msg\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Gallery\\details.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Gallery\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Login\\Forget.cshtml",
-      "TargetPath": "Views\\Login\\Forget.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Msg\\send.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Msg\\send.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Teaser\\index.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Teaser\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Profile\\index.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Profile\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Product\\details.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Product\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Pay\\index.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Pay\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\experts\\list.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\experts\\list.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\slider\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\slider\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Home\\orgin.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Home\\orgin.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Profile\\index.cshtml",
-      "TargetPath": "Views\\Profile\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Gallery\\details.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Gallery\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Home\\orgincheck.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Home\\orgincheck.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Shared\\PartialMualtiImage.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Shared\\PartialMualtiImage.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Home\\orgin.cshtml",
-      "TargetPath": "Views\\Home\\orgin.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\cart\\order.cshtml",
-      "TargetPath": "Views\\cart\\order.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Msg\\send.cshtml",
-      "TargetPath": "Views\\Msg\\send.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\experts\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\experts\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\cart\\show.cshtml",
-      "TargetPath": "Views\\cart\\show.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Blog\\details.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Blog\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\product\\AddProduct.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\product\\AddProduct.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Pay\\index.cshtml",
-      "TargetPath": "Views\\Pay\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Product\\index.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Product\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Contact\\index.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Contact\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Login\\register.cshtml",
-      "TargetPath": "Views\\Login\\register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Gallery\\details.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Gallery\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Blog\\index.cshtml",
-      "TargetPath": "Views\\Blog\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Teaser\\details.cshtml",
-      "TargetPath": "Views\\Teaser\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Profile\\index.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Profile\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Product\\details.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Product\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Product\\details.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Product\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Login\\register.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Login\\register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Login\\register.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Login\\register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Login\\index.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Login\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Home\\orgincheck.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Home\\orgincheck.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Home\\orgin.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Home\\orgin.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Msg\\Detailssnd.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Msg\\Detailssnd.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Profile\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Profile\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Agancy\\index.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Agancy\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\blog\\updateblog.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\blog\\updateblog.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\gallery\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\gallery\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Teaser\\index.cshtml",
-      "TargetPath": "Views\\Teaser\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Pay\\index.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Pay\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Blog\\details.cshtml",
-      "TargetPath": "Views\\Blog\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Product\\details.cshtml",
-      "TargetPath": "Views\\Product\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Agancy\\index.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Agancy\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\users\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\users\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\order\\show.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\order\\show.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Blog\\index.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Blog\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\agency\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\agency\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Msg\\Detailssnd.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Msg\\Detailssnd.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\En\\Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Agancy\\details.cshtml",
-      "TargetPath": "Views\\Agancy\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Product\\index.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Product\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Shared\\_Partial_Mainmenu.cshtml",
-      "TargetPath": "Views\\Shared\\_Partial_Mainmenu.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Sourcehelp\\UploadImageSingle.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Sourcehelp\\UploadImageSingle.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\comment\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\comment\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Contact\\index.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Contact\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Msg\\Details.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Msg\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Shared\\_Partial_Mainmenu_Tu.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Shared\\_Partial_Mainmenu_Tu.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\order\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\order\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Agancy\\details.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Agancy\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\logo\\Index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\logo\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Agancy\\details.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Agancy\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\agency\\list.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\agency\\list.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Shared\\_Partial_Mainmenu_Ar.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Shared\\_Partial_Mainmenu_Ar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\login_admin\\index.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\login_admin\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Login\\index.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Login\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Address\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Address\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Login\\register.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Login\\register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\financial\\List.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\financial\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Expert\\details.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Expert\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Msg\\Details.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Msg\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Teaser\\index.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Teaser\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\financial\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\financial\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Msg\\Detailssnd.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Msg\\Detailssnd.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Msg\\Detailssnd.cshtml",
-      "TargetPath": "Views\\Msg\\Detailssnd.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Agancy\\index.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Agancy\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Sourcehelp\\DropdownSearch.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Sourcehelp\\DropdownSearch.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Agancy\\details.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Agancy\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Expert\\index.cshtml",
-      "TargetPath": "Views\\Expert\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Profile\\index.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Profile\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\RayChat\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\RayChat\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Blog\\index.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Blog\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Msg\\index.cshtml",
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Msg\\index.cshtml",
       "TargetPath": "Areas\\En\\Views\\Msg\\index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Address\\map.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Address\\map.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Gallery\\index.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Gallery\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Home\\orgincheck.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Home\\orgincheck.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Gallery\\details.cshtml",
-      "TargetPath": "Views\\Gallery\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Login\\Forget.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Login\\Forget.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\blog\\list.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\blog\\list.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Baner\\List.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Baner\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\gallery\\List.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\gallery\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Blog\\details.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Blog\\details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Home\\orgin.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Home\\orgin.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Tu\\Views\\Expert\\index.cshtml",
-      "TargetPath": "Areas\\Tu\\Views\\Expert\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\order\\ongoing.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\order\\ongoing.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\Originality\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Originality\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\login_admin\\index.cshtml",
-      "TargetPath": "Areas\\En\\Views\\login_admin\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Msg\\Details.cshtml",
-      "TargetPath": "Views\\Msg\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Areas\\En\\Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Ar\\Views\\Contact\\index.cshtml",
-      "TargetPath": "Areas\\Ar\\Views\\Contact\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Areas\\En\\Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\Admin\\Views\\comment\\Notaccepted.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\comment\\Notaccepted.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Views\\Home\\orgincheck.cshtml",
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Home\\orgincheck.cshtml",
       "TargetPath": "Views\\Home\\orgincheck.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Neati\\Desktop\\SevenStar\\hampad\\Areas\\En\\Views\\Shared\\_Partial_Mainmenu_En.cshtml",
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\teaser\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\teaser\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Gallery\\details.cshtml",
+      "TargetPath": "Views\\Gallery\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Category\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Category\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\blog\\list.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\blog\\list.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\login_admin\\index.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\login_admin\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Pay\\index.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Pay\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Shared\\_Partial_Mainmenu_Tu.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Shared\\_Partial_Mainmenu_Tu.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Login\\Forget.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Login\\Forget.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Msg\\index.cshtml",
+      "TargetPath": "Views\\Msg\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Expert\\details.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Expert\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Gallery\\index.cshtml",
+      "TargetPath": "Views\\Gallery\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Address\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Address\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Sourcehelp\\DropdownSearch.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Sourcehelp\\DropdownSearch.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Agancy\\index.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Agancy\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Gallery\\index.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Gallery\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\login_admin\\index.cshtml",
+      "TargetPath": "Areas\\En\\Views\\login_admin\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Profile\\index.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Profile\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Msg\\Detailssnd.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Msg\\Detailssnd.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\En\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Shared\\_Partial_ModalLang.cshtml",
+      "TargetPath": "Views\\Shared\\_Partial_ModalLang.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Login\\Forget.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Login\\Forget.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Originality\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Originality\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Login\\index.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Login\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Teaser\\details.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Teaser\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\slider\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\slider\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Msg\\Details.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Msg\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Shared\\_Partial_Mainmenu.cshtml",
+      "TargetPath": "Views\\Shared\\_Partial_Mainmenu.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\cart\\list.cshtml",
+      "TargetPath": "Views\\cart\\list.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Blog\\index.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Blog\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\comment\\Acceptede.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\comment\\Acceptede.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Teaser\\index.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Teaser\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Gallery\\index.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Gallery\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Teaser\\details.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Teaser\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Home\\orgincheck.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Home\\orgincheck.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\logo\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\logo\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Profile\\index.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Profile\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Home\\orgincheck.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Home\\orgincheck.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\order\\ongoing.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\order\\ongoing.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\financial\\List.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\financial\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\En\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Gallery\\details.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Gallery\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\product\\AddProduct.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\product\\AddProduct.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Contact\\index.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Contact\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Msg\\send.cshtml",
+      "TargetPath": "Views\\Msg\\send.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\gallery\\List.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\gallery\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Agancy\\details.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Agancy\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Expert\\index.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Expert\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\experts\\list.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\experts\\list.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Msg\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Msg\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\comment\\Notaccepted.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\comment\\Notaccepted.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Profile\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Profile\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\SocialNetwork\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\SocialNetwork\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Product\\index.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Product\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Expert\\index.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Expert\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Product\\details.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Product\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Product\\details.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Product\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Msg\\send.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Msg\\send.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Agancy\\details.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Agancy\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Product\\details.cshtml",
+      "TargetPath": "Views\\Product\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Address\\map.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Address\\map.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Home\\orgin.cshtml",
+      "TargetPath": "Views\\Home\\orgin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\gallery\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\gallery\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\cart\\show.cshtml",
+      "TargetPath": "Views\\cart\\show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Teaser\\details.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Teaser\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Expert\\index.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Expert\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Shared\\_Partial_Mainmenu_En.cshtml",
       "TargetPath": "Areas\\En\\Views\\Shared\\_Partial_Mainmenu_En.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Blog\\index.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Blog\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Sourcehelp\\UploadImageSingle.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Sourcehelp\\UploadImageSingle.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Msg\\Details.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Msg\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Msg\\send.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Msg\\send.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Home\\orgin.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Home\\orgin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Agancy\\details.cshtml",
+      "TargetPath": "Views\\Agancy\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Agancy\\details.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Agancy\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Msg\\Details.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Msg\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Msg\\Detailssnd.cshtml",
+      "TargetPath": "Views\\Msg\\Detailssnd.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Blog\\details.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Blog\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Blog\\details.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Blog\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Product\\index.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Product\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\financial\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\financial\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\order\\sender.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\order\\sender.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\product\\update.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\product\\update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Product\\index.cshtml",
+      "TargetPath": "Views\\Product\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Msg\\Detailssnd.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Msg\\Detailssnd.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Shared\\_Partial_ModalLangAr.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Shared\\_Partial_ModalLangAr.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Product\\index.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Product\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Login\\register.cshtml",
+      "TargetPath": "Views\\Login\\register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Home\\orgincheck.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Home\\orgincheck.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Profile\\index.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Profile\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\RayChat\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\RayChat\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Baner\\List.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Baner\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Gallery\\details.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Gallery\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Baner\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Baner\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Teaser\\index.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Teaser\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Msg\\send.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Msg\\send.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Contact\\index.cshtml",
+      "TargetPath": "Views\\Contact\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Msg\\index.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Msg\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Login\\Forget.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Login\\Forget.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\teaser\\List.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\teaser\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Home\\orgin.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Home\\orgin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\login_admin\\index.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\login_admin\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Expert\\details.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Expert\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Shared\\_Partial_Mainmenu_Ar.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Shared\\_Partial_Mainmenu_Ar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Expert\\details.cshtml",
+      "TargetPath": "Views\\Expert\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Blog\\details.cshtml",
+      "TargetPath": "Views\\Blog\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Agancy\\index.cshtml",
+      "TargetPath": "Views\\Agancy\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Gallery\\details.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Gallery\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Contact\\index.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Contact\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\login_admin\\index.cshtml",
+      "TargetPath": "Views\\login_admin\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\blog\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\blog\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Expert\\details.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Expert\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\users\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\users\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\slider\\List.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\slider\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Shared\\_Partial_ModalLangEn.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Shared\\_Partial_ModalLangEn.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Expert\\index.cshtml",
+      "TargetPath": "Views\\Expert\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Shared\\_Partial_ModalLangTu.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Shared\\_Partial_ModalLangTu.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Shared\\PartialMualtiImage.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\PartialMualtiImage.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Contact\\index.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Contact\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Msg\\Details.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Msg\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Msg\\Detailssnd.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Msg\\Detailssnd.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Teaser\\index.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Teaser\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Login\\index.cshtml",
+      "TargetPath": "Views\\Login\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Profile\\index.cshtml",
+      "TargetPath": "Views\\Profile\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\experts\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\experts\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Pay\\index.cshtml",
+      "TargetPath": "Views\\Pay\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Home\\orgin.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Home\\orgin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\order\\show.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\order\\show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Login\\index.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Login\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Gallery\\index.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Gallery\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Agancy\\index.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Agancy\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Sourcehelp\\List.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Sourcehelp\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Msg\\Details.cshtml",
+      "TargetPath": "Views\\Msg\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\agency\\list.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\agency\\list.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Msg\\send.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Msg\\send.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\Sourcehelp\\UploadImageMulti.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Sourcehelp\\UploadImageMulti.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Agancy\\index.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Agancy\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Login\\Forget.cshtml",
+      "TargetPath": "Views\\Login\\Forget.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\order\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\order\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Teaser\\details.cshtml",
+      "TargetPath": "Views\\Teaser\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Msg\\Detailssnd.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Msg\\Detailssnd.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Blog\\details.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Blog\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Shared\\_Partial_Menu_irandoc.cshtml",
+      "TargetPath": "Views\\Shared\\_Partial_Menu_irandoc.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\blog\\updateblog.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\blog\\updateblog.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\comment\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\comment\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Login\\register.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Login\\register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Login\\register.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Login\\register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Product\\details.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Product\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Login\\register.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Login\\register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Blog\\index.cshtml",
+      "TargetPath": "Views\\Blog\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Tu\\Views\\Msg\\index.cshtml",
+      "TargetPath": "Areas\\Tu\\Views\\Msg\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Pay\\index.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Pay\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\product\\list.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\product\\list.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\En\\Views\\Blog\\index.cshtml",
+      "TargetPath": "Areas\\En\\Views\\Blog\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Login\\index.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Login\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\Teaser\\index.cshtml",
+      "TargetPath": "Views\\Teaser\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Views\\cart\\order.cshtml",
+      "TargetPath": "Views\\cart\\order.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Ar\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Areas\\Ar\\Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\Archive\\SevenStar\\hampad\\Areas\\Admin\\Views\\agency\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\agency\\index.cshtml",
       "FileKind": "mvc"
     }
   ],
